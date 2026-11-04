@@ -1,0 +1,68 @@
+[gd_scene load_steps=12 format=3 uid="uid://cy4kcp2m25mc3"]
+
+[ext_resource type="Script" path="res://plugins/minigames/kernel_compiling/player_kernel_compiling.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://bbwi5248ob4tm" path="res://assets/models/bed/bed.glb" id="2_eyd5x"]
+[ext_resource type="PackedScene" uid="uid://b3tmuh1w7tok" path="res://assets/models/computer/laptop.glb" id="3_xi7ca"]
+[ext_resource type="PackedScene" uid="uid://bcadvinwdsw4t" path="res://common/scenes/control_view/control_view.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://cqa4a7u15t2ra" path="res://assets/models/computer/computer.glb" id="4_7ngfo"]
+[ext_resource type="Texture2D" uid="uid://c0aubkywn5qqe" path="res://plugins/minigames/kernel_compiling/screen/fill.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b48624aiklp0o" path="res://assets/textures/wrong.png" id="8"]
+[ext_resource type="AudioStream" uid="uid://deymll0vpnxxv" path="res://assets/sounds/correct.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://ccrr8rb5aflkc" path="res://assets/sounds/wrong.wav" id="10"]
+[ext_resource type="Shader" path="res://plugins/minigames/kernel_compiling/screen/progress.gdshader" id="11"]
+
+[sub_resource type="ShaderMaterial" id="2"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("11")
+shader_parameter/percentage = 0.0
+shader_parameter/full_tex = ExtResource("5")
+
+[node name="Player" type="Node3D" groups=["players"]]
+script = ExtResource("1")
+
+[node name="Model" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+
+[node name="bed" parent="." instance=ExtResource("2_eyd5x")]
+transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, 0, 0, 0)
+
+[node name="laptop" parent="." instance=ExtResource("3_xi7ca")]
+transform = Transform3D(-0.35, 0, -3.0598e-08, 0, 0.35, 0, 3.0598e-08, 0, -0.35, 0, 0.75, 0.5)
+
+[node name="PenaltyTimer" type="Timer" parent="."]
+wait_time = 0.25
+one_shot = true
+
+[node name="Screen" parent="." instance=ExtResource("4_7ngfo")]
+transform = Transform3D(0.5, 0, -5.96047e-08, 0, 0.5, 0, 5.96047e-08, 0, 0.5, 2.03651e-08, -0.1, 1.375)
+
+[node name="ControlView" parent="Screen" instance=ExtResource("4")]
+transform = Transform3D(0.375, 4.47037e-08, -1.95405e-15, 0, -1.63918e-08, -0.375, -4.47037e-08, 0.375, -1.63918e-08, 3.90772e-08, 1.30246, 0.669471)
+
+[node name="PenaltySplash" type="Sprite3D" parent="Screen"]
+transform = Transform3D(-2.18557e-08, 0, -0.5, 0, 0.5, 0, 0.5, 0, -2.18557e-08, 4.30529e-08, 1.30246, 0.702821)
+visible = false
+pixel_size = 0.0025
+axis = 0
+texture = ExtResource("8")
+
+[node name="Progress" type="Sprite3D" parent="."]
+transform = Transform3D(0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.25, 0, 0.55, 1.70532)
+material_override = SubResource("2")
+pixel_size = 0.003
+texture = ExtResource("5")
+
+[node name="Correct" type="AudioStreamPlayer3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.33427, 2.12064)
+stream = ExtResource("9")
+volume_db = 10.0
+bus = &"Effects"
+
+[node name="Wrong" type="AudioStreamPlayer3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.33427, 2.12064)
+stream = ExtResource("10")
+volume_db = 20.0
+bus = &"Effects"
+
+[connection signal="timeout" from="PenaltyTimer" to="." method="_on_PenaltyTimer_timeout"]

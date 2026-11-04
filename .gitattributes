@@ -1,0 +1,19 @@
+# Normalize line endings: Godot, Docker and the shell scripts all run on Linux here.
+* text=auto eol=lf
+
+# Upstream keeps these in Git LFS. This repository stores them as ordinary files:
+# none reaches GitHub's 100 MB limit, and LFS quotas would limit who can clone it.
+*.png binary
+*.jpg binary
+*.blend binary
+*.blend1 binary
+*.escn binary
+*.dae binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.bin binary
+*.glb binary
+*.xcf binary
+*.pck binary
+*.zip binary

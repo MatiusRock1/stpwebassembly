@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-07-13 14:09+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
+"Language-Team: Irish <https://hosted.weblate.org/projects/super-tux-party/"
+"minigameshurdle/ga/>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :("
+"n>6 && n<11) ? 3 : 4;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+msgid "MINIGAME_NAME"
+msgstr "Constaicí"
+
+msgid "MINIGAME_ACTION_JUMP"
+msgstr "Léim"
+
+msgid "HURDLE_PLAYER_WINS_MSG"
+msgstr "Bhuaigh {player}!"
+
+msgid "MINIGAME_DESCRIPTION"
+msgstr ""
+"Seasann na himreoirí ar ardán ag gluaiseacht.\n"
+"\n"
+"Ná titim as an ardán! Bhuaigh an t-imreoir deireanach atá ina sheasamh."

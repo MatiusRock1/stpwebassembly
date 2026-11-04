@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-08 14:01+0000\n"
+"Last-Translator: reimu105 <peter112548@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/super-tux-party/minigamesdungeon_parkour/zh_Hant/>\n"
+"Language: zh_Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.10-dev\n"
+
+msgid "MINIGAME_ACTION_JUMP"
+msgstr "跳躍"
+
+msgid "MINIGAME_ACTION_DOWN"
+msgstr "向下移動"
+
+msgid "MINIGAME_NAME"
+msgstr "地牢跑酷"
+
+msgid "MINIGAME_DESCRIPTION"
+msgstr "跳躍並跑向終點線"
+
+msgid "MINIGAME_ACTION_LEFT"
+msgstr "向左移動"
+
+msgid "MINIGAME_ACTION_RIGHT"
+msgstr "向右移動"
+
+msgid "MINIGAME_ACTION_UP"
+msgstr "向上移動"

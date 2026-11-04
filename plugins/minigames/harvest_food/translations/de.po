@@ -1,0 +1,35 @@
+# Translations template for Super Tux Party.
+# Copyright (C) 2019 Super Tux Party Contributors
+# This file is distributed under the same license as the Super Tux Party project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.7\n"
+"PO-Revision-Date: 2024-04-02 16:17+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/super-tux-party/"
+"minigamesharvest_food/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+msgid "MINIGAME_NAME"
+msgstr "Erntezeit"
+
+#, fuzzy
+msgid "MINIGAME_DESCRIPTION"
+msgstr ""
+"Jeder Spieler wählt eine der Pflanzen aus, bevor die Zeit ausläuft. Für jede "
+"gesammelte Pflanze gibt es einen Punkt.\n"
+"Jedoch Vorsicht: Eine der Pflanzen ist verrottet und bringt keine Punkte.\n"
+"\n"
+"Der Spieler, der die meisten gesunden Pflanzen sammelt, gewinnt!"
+
+msgid "MINIGAME_ACTION_JUMP"
+msgstr "Springen"
+
+msgid "HARVEST_FOOD_SELECT_ROTTEN_PLANT_MSG"
+msgstr "{player} hat die verdorbene Pflanze gewählt!"

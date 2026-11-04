@@ -1,0 +1,637 @@
+# Translations template for Super Tux Party.
+# Copyright (C) 2019 Super Tux Party Contributors
+# This file is distributed under the same license as the Super Tux Party project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.7\n"
+"PO-Revision-Date: 2024-03-10 07:01+0000\n"
+"Last-Translator: nkyossi <yossisanbi@yahoo.co.jp>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/super-tux-party/"
+"super-tux-party/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+msgid "CONTEXT_LABEL_BUY_CAKE"
+msgstr "{amount} 個のクッキーでケーキを買う"
+
+msgid "CONTEXT_LABEL_DUEL_REWARD"
+msgstr ""
+
+msgid "CONTEXT_LABEL_DUEL_SELECT"
+msgstr "対戦相手を選択:"
+
+msgid "CONTEXT_LABEL_FINISH"
+msgstr "Finish!"
+
+msgid "CONTEXT_LABEL_GO"
+msgstr ""
+
+msgid "CONTEXT_LABEL_PLAYER_ROLLED"
+msgstr "{name}ロール{value}:"
+
+msgid "CONTEXT_LABEL_READY_QUESTION"
+msgstr ""
+"Ready?\\n"
+"(レディー？)"
+
+msgid "CONTEXT_LABEL_ROLL"
+msgstr "Roll!\\n(ロール!)"
+
+msgid "CONTEXT_LABEL_ROLL_PLAYER"
+msgstr "{name}のロール!"
+
+msgid "CONTEXT_LABEL_STEAL_ONE_CAKE"
+msgstr ""
+
+msgid "CONTEXT_LABEL_STEAL_TEN_COOKIES"
+msgstr ""
+
+msgid "CONTEXT_LABEL_TURN_NUM"
+msgstr "{turn}回"
+
+msgid "CONTEXT_LABEL_VS"
+msgstr "VS."
+
+msgid "CONTEXT_LABEL_YOUR_TURN"
+msgstr "あなたの番ですよ!"
+
+msgid "CONTEXT_NOTIFICATION_NOT_ENOUGH_COOKIES"
+msgstr "クッキーがたりないよ"
+
+msgid "CONTEXT_NOTIFICATION_NOT_ENOUGH_SPACE"
+msgstr "もうはいらないよ"
+
+msgid "MENU_CONTROLS_ACTION_1"
+msgstr "アクション１"
+
+msgid "MENU_CONTROLS_ACTION_2"
+msgstr "アクション２"
+
+msgid "MENU_CONTROLS_ACTION_3"
+msgstr "アクション３"
+
+msgid "MENU_CONTROLS_ACTION_4"
+msgstr "アクション４"
+
+msgid "MENU_CONTROLS_UNKNOWN_GAMEPAD_AXIS"
+msgstr ""
+
+msgid "MENU_CONTROLS_GENERIC_GAMEPAD_BUTTON"
+msgstr "ゲームパッドボタン {button}"
+
+msgid "MENU_CONTROLS_MOUSE"
+msgstr "マウス"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON"
+msgstr "マウスボタン"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_LEFT"
+msgstr "左クリック"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_MIDDLE"
+msgstr "中クリック"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_RIGHT"
+msgstr "右クリック"
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_DOWN"
+msgstr ""
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_LEFT"
+msgstr ""
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_RIGHT"
+msgstr ""
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_UP"
+msgstr ""
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT"
+msgstr "左トリガー"
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT_2"
+msgstr "左トリガー２"
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT_3"
+msgstr "左トリガー３"
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT"
+msgstr "右トリガー"
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT_2"
+msgstr "右トリガー２"
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT_3"
+msgstr "右トリガー３"
+
+msgid "MENU_CONTROLS_DIR_DOWN"
+msgstr "下"
+
+msgid "MENU_CONTROLS_DIR_LEFT"
+msgstr "左"
+
+msgid "MENU_CONTROLS_DIR_RIGHT"
+msgstr "右"
+
+msgid "MENU_CONTROLS_DIR_UP"
+msgstr "上"
+
+msgid "MENU_CONTROLS_SCREENSHOT"
+msgstr "スクリーンショットをとる"
+
+msgid "MENU_CONTROLS_DEV_MENU"
+msgstr "開発者メニューをひらく"
+
+msgid "MENU_IO_ENTER_SAVEGAME_NAME"
+msgstr "セーブデータのなまえ:"
+
+msgid "MENU_IO_LOAD_GAME"
+msgstr "ゲームデータをロード"
+
+msgid "MENU_IO_SAVE"
+msgstr "セーブ"
+
+msgid "MENU_IO_SAVE_GAME"
+msgstr "ゲームデータをセーブ"
+
+msgid "MENU_LABEL_BACK"
+msgstr "戻る"
+
+msgid "MENU_LABEL_CANCEL"
+msgstr "キャンセル"
+
+msgid "MENU_LABEL_CONTINUE"
+msgstr "続ける"
+
+msgid "MENU_LABEL_DESKTOP"
+msgstr "終了してデスクトップへ戻る"
+
+msgid "MENU_SETTINGS_AWARD_LINEAR"
+msgstr ""
+
+msgid "MENU_LABEL_NEW_GAME"
+msgstr "新しいゲーム"
+
+msgid "MENU_LABEL_START"
+msgstr "スタート"
+
+msgid "MENU_LABEL_PAUSE"
+msgstr "ポーズ"
+
+msgid "MENU_LABEL_PAUSED"
+msgstr "ポーズ中"
+
+msgid "MENU_LABEL_PAUSE_ON_WINDOW_UNFOCUS"
+msgstr "ウィンドウからはなれたら一時停止する"
+
+msgid "MENU_LABEL_PLAY"
+msgstr "プレイ"
+
+msgid "MENU_LABEL_ONLINE"
+msgstr "オンラインプレイ"
+
+msgid "MENU_LABEL_PLAYER1"
+msgstr "プレイヤー1"
+
+msgid "MENU_LABEL_PLAYER2"
+msgstr "プレイヤー2"
+
+msgid "MENU_LABEL_PLAYER3"
+msgstr "プレイヤー3"
+
+msgid "MENU_LABEL_PLAYER4"
+msgstr "プレイヤー4"
+
+msgid "MENU_LABEL_PRESS_ANY_KEY"
+msgstr "いずれかのキーを押す"
+
+msgid "MENU_LABEL_QUIT"
+msgstr "終了する"
+
+msgid "MENU_LABEL_READY"
+msgstr "レディ－！"
+
+msgid "MENU_LABEL_RESUME"
+msgstr "再開"
+
+msgid "MENU_LABEL_RETURN_MENU"
+msgstr "メインメニューに戻る"
+
+msgid "MENU_LABEL_SELECT_BOARD"
+msgstr "ボードを選択:"
+
+msgid "MENU_LABEL_SELECT_CHARACTER"
+msgstr "キャラクターをえらぼう"
+
+msgid "MENU_LABEL_TRY"
+msgstr ""
+
+msgid "MENU_SETTINGS_AWARD_WINNER_TAKES_ALL"
+msgstr ""
+
+msgid "MENU_SETTINGS_AWARD_TYPE"
+msgstr ""
+
+msgid "MENU_LABEL_CREDITS"
+msgstr ""
+
+msgid "MENU_LABEL_SCREENSHOTS"
+msgstr "スクリーンショット"
+
+msgid "MENU_OPTIONS"
+msgstr "設定"
+
+msgid "MENU_OPTIONS_AUDIO"
+msgstr "オーディオ"
+
+msgid "MENU_OPTIONS_CONTROLS"
+msgstr "操作方法"
+
+msgid "MENU_OPTIONS_EFFECTS"
+msgstr "エフェクト"
+
+msgid "MENU_OPTIONS_FRAME_CAP"
+msgstr ""
+
+msgid "MENU_OPTIONS_FULLSCREEN"
+msgstr "フルスクリーン"
+
+msgid "MENU_OPTIONS_MSAA"
+msgstr ""
+
+msgid "MENU_OPTIONS_LANGUAGE"
+msgstr "言語"
+
+msgid "MENU_OPTIONS_MASTER"
+msgstr ""
+
+msgid "MENU_OPTIONS_MISC"
+msgstr "その他"
+
+msgid "MENU_OPTIONS_MUSIC"
+msgstr "音楽"
+
+msgid "MENU_OPTIONS_MUTE_ON_WINDOW_UNFOCUS"
+msgstr "ウィンドウからフォーカスがはなれたらミュートにする"
+
+msgid "MENU_OPTIONS_SYSTEM_DEFAULT"
+msgstr "システムデフォルト"
+
+msgid "MENU_OPTIONS_VISUAL"
+msgstr ""
+
+msgid "MENU_OPTIONS_VSYNC"
+msgstr "垂直同期"
+
+msgid "DIALOG_YES"
+msgstr ""
+
+msgid "DIALOG_NO"
+msgstr ""
+
+msgid "MENU_LABEL_CONNECTION_ERROR_TITLE"
+msgstr "接続エラー"
+
+msgid "MENU_LABEL_CONNECTION_TIMEOUT"
+msgstr ""
+"サーバーにアクセスできません。\n"
+"\n"
+"サーバー管理者に連絡してください。"
+
+msgid "MENU_LABEL_NO_SERVER_VERSION"
+msgstr ""
+"サーバーのバージョンを特定できませんでした。\n"
+"\n"
+"サーバー管理者に連絡してください。"
+
+msgid "MENU_LABEL_VERSION_MISMATCH_TITLE"
+msgstr "バージョンが一致しませんでした"
+
+msgid "MENU_LABEL_VERSION_MISMATCH"
+msgstr ""
+"このサーバーでは互換性のないバージョンの SuperTuxParty を実行しています。\n"
+"あなたのバージョン: {local}\n"
+"サーバーのバージョン: {remote}\n"
+"\n"
+"このサーバーでプレイするには、互換性のあるバージョンをダウンロードしてくださ"
+"い。"
+
+msgid "MENU_LABEL_CHOOSE_SERVER"
+msgstr "サーバーをえらぶ:"
+
+msgid "MENU_LABEL_COPY"
+msgstr "コピーする"
+
+msgid "MENU_LABEL_LOBBY_CREATE"
+msgstr "ロビーをつくる"
+
+msgid "MENU_LABEL_LOBBY_JOIN"
+msgstr "ロビーに参加する"
+
+msgid "MENU_LOBBY_SETTINGS"
+msgstr "ゲーム設定"
+
+msgid "MENU_SETTINGS_PUBLIC"
+msgstr "公開ロビー"
+
+msgid "MENU_SETTINGS_CAKE_COST"
+msgstr ""
+
+msgid "MENU_SETTINGS_TURNS"
+msgstr "ターン"
+
+msgid "MENU_SETTINGS_ENABLE_TIMEOUT"
+msgstr "アクティブでないプレイヤーをキックする"
+
+msgid "MENU_SETTINGS_TIMEOUT"
+msgstr "時間制限"
+
+msgid "AI_DIFFICULTY"
+msgstr "AIのつよさ:"
+
+msgid "DIFFICULTY_EASY"
+msgstr "やさしい"
+
+msgid "DIFFICULTY_NORMAL"
+msgstr "ふつう"
+
+msgid "DIFFICULTY_HARD"
+msgstr "むずかしい"
+
+#, fuzzy
+msgid "CONTEXT_GNU_ACTION_TYPE"
+msgstr "GNUアクション"
+
+#, fuzzy
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY"
+msgstr "グラフィックの質"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_HIGH"
+msgstr "たかい"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_MEDIUM"
+msgstr "なかほど"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_LOW"
+msgstr "ひくい"
+
+msgid "MENU_OPTIONS_FXAA"
+msgstr ""
+
+msgid "MENU_GRAPHIC_QUALITY_REBOOT_NOTICE"
+msgstr ""
+
+#, fuzzy
+msgid "MENU_LOBBY_ADD_PLAYER"
+msgstr "押して参加する"
+
+msgid "CONTEXT_SPEAKER_SARA"
+msgstr "サラ"
+
+msgid "CONTEXT_WINNER_ANNOUNCEMENT"
+msgstr "みなさん、一生懸命勝利をめざしてたたかっていましたね。いま、その勝負のゆくえ"
+"があきらかになります。今回の勝者は…"
+
+msgid "CONTEXT_WINNER_REVEAL_ONE_PLAYER"
+msgstr "[color=#ff3300]{0}[/color]!"
+
+msgid "CONTEXT_WINNER_REVEAL_TWO_PLAYER"
+msgstr "[color=#ff3300]{0}[/color] and [color=#33ff00]{1}[/color]!"
+
+msgid "CONTEXT_WINNER_REVEAL_THREE_PLAYER"
+msgstr ""
+
+msgid "CONTEXT_WINNER_REVEAL_FOUR_PLAYER"
+msgstr ""
+
+msgid "CONTEXT_LABEL_CAKES"
+msgstr "ケーキ"
+
+msgid "CONTEXT_LABEL_COOKIES"
+msgstr "クッキー"
+
+msgid "CONTEXT_GNU_NAME"
+msgstr "GNU"
+
+msgid "CONTEXT_GNU_EVENT_START"
+msgstr ""
+
+msgid "CONTEXT_GNU_MINIGAME_SOLO_MODERATION"
+msgstr "一人であそぶミニゲーム！ きみのウデマエをみせてくれたら、[color=#dd44ff]{rewa"
+"rd}[/color]を用意しているぞ"
+
+msgid "CONTEXT_GNU_MINIGAME_SOLO"
+msgstr "一人であそぶミニゲーム"
+
+msgid "CONTEXT_GNU_MINIGAME_COOP_MODERATION"
+msgstr "いっしょにあそぼう！たのしいよ"
+
+msgid "CONTEXT_GNU_MINIGAME_COOP"
+msgstr "みんなで協力! ミニゲーム"
+
+msgid "CONTEXT_GNU_SOLO_VICTORY"
+msgstr ""
+
+msgid "CONTEXT_GNU_SOLO_LOSS"
+msgstr ""
+
+msgid "CONTEXT_GNU_COOP_VICTORY"
+msgstr ""
+
+msgid "CONTEXT_GNU_COOP_LOSS"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_NAME"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_ACTION_TYPE"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_EVENT_START"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_MINIGAME_SOLO_MODERATION"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_MINIGAME_SOLO"
+msgstr "一人であそぶミニゲーム"
+
+msgid "CONTEXT_NOLOK_MINIGAME_COOP_MODERATION"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_MINIGAME_COOP"
+msgstr "みんなで協力! ミニゲーム"
+
+msgid "CONTEXT_NOLOK_SOLO_VICTORY"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_SOLO_LOSS"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_COOP_VICTORY"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_COOP_LOSS"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_LOSE_COOKIES_MODERATION"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_LOSE_COOKIES"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_ROLL_MODIFIER_MODERATION"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_ROLL_MODIFIER"
+msgstr "のろわれたサイコロ"
+
+msgid "CONTEXT_SHOW_TUTORIAL"
+msgstr "こんかいがはじめてのようですね。ルールを説明しましょうか？"
+
+msgid "CONTEXT_TUTORIAL_DICE"
+msgstr "このゲームはターン制です。あなたのターンのときにサイコロをふって。出た目の数"
+"だけ前にすすみます。"
+
+msgid "CONTEXT_TUTORIAL_COOKIES"
+msgstr "ミニゲームに勝つとクッキーがもらえます。お店のまえをとおるときにクッキーをつ"
+"かえば、アイテムを買うことができます。"
+
+msgid "CONTEXT_TUTORIAL_CAKES"
+msgstr ""
+"勝つためには、たくさんクッキーをあつめましょう。同点になったら、たくさんクッ"
+"キーをもっている人が勝ちです。また、クッキーはケーキを買うためにもつかいます"
+"。ケーキはマップのどこかにあり、だれかがケーキを買うとべつの場所に移動してし"
+"まいます。"
+
+msgid "CONTEXT_TUTORIAL_SPACES_NORMAL"
+msgstr "マス目にも注意しましょう。あおいマスはクッキーをもらえますが、あかいマスにと"
+"まるとクッキーをうしなってしまいます。"
+
+msgid "CONTEXT_TUTORIAL_SPACES_SPECIAL"
+msgstr "みどりいろのマスにとまるとイベントがはじまります。バトルマスでは、ほかのプレ"
+"イヤーにバトルをしかけることができます。"
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES"
+msgstr "すべてのプレイヤーのターンが終了すると、ミニゲームがはじまります。3種類のミニ"
+"ゲームを紹介します。"
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_FFA"
+msgstr "全員で対決、全員が1位をめざしてたたかいます。"
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_2V2"
+msgstr "２対２、２チームで対戦します。"
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_1V3"
+msgstr "そして、１対３、一人がのこりのプレイヤーとたたかいます。一人で勝てれば、ボー"
+"ナスがもらえますよ。"
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_SPECIAL"
+msgstr ""
+"GNUかノロックのマスではスペシャルミニゲームがはじまります。GNUのミニゲームは"
+"よいのですが、ノロックのミニゲームはわるい結果をもたらすでしょう。ノロックに"
+"はちかづかないほうが身のためです。"
+
+msgid "CONTEXT_TUTORIAL_END"
+msgstr "さあ、準備万端！たのしんでくださいね！"
+
+msgid "CONTEXT_CAKE_PLACED"
+msgstr ""
+
+msgid "CONTEXT_CAKE_WANT_BUY"
+msgstr "ケーキを買う？"
+
+msgid "CONTEXT_CAKE_BUY_AMOUNT"
+msgstr "ケーキを何個買う？"
+
+msgid "CONTEXT_CAKE_COLLECTED"
+msgstr ""
+"オーケー、[color=#00aaff]{player}[/color]。[color=#dd44ff]{amount}[/color] "
+"個のケーキをどうぞ。"
+
+msgid "CONTEXT_CAKE_CANT_AFFORD"
+msgstr "申し訳ないが、ケーキを買うにはクッキーが足りない。"
+
+msgid "SHOP_LABEL_TITLE"
+msgstr "アイテムショップ"
+
+msgid "SHOP_LABEL_DESCRIPTION"
+msgstr "アイテム説明"
+
+msgid "SHOP_ITEM_NO_DESCRIPTION"
+msgstr "説明はありません"
+
+msgid "REWARDSCREEN_MINIGAME_RESULTS"
+msgstr "ミニゲームの結果"
+
+msgid "REWARDSCREEN_MINIGAME_WINNER"
+msgstr ""
+
+msgid "REWARDSCREEN_MINIGAME_REWARD"
+msgstr "報酬:"
+
+msgid "REWARDSCREEN_PRESS_BUTTON"
+msgstr "押す"
+
+msgid "MINIGAME_ACTION_MOVEMENT"
+msgstr "移動"
+
+msgid "MINIGAME_TYPE_FFA"
+msgstr "全員で対決 ミニゲーム:"
+
+msgid "MINIGAME_TYPE_2v2"
+msgstr "２対２ ミニゲーム"
+
+msgid "MINIGAME_TYPE_1v3"
+msgstr "１対３ ミニゲーム"
+
+msgid "MINIGAME_TYPE_DUEL"
+msgstr ""
+
+msgid "MINIGAME_TYPE_GNU_COOP"
+msgstr "GNU みんなで協力 ミニゲーム"
+
+msgid "MINIGAME_TYPE_GNU_SOLO"
+msgstr "GNU 一人で ミニゲーム"
+
+msgid "MINIGAME_TYPE_NOLOK_COOP"
+msgstr "ノロック みんなで協力 ミニゲーム"
+
+msgid "MINIGAME_TYPE_NOLOK_SOLO"
+msgstr "ノロック 一人で ミニゲーム"
+
+msgid "ERROR"
+msgstr "エラー"
+
+msgid "SAVE_GAME_CANNOT_SAVE"
+msgstr "まだセーブできないよ"
+
+msgid "SAVE_GAME_DISABLED"
+msgstr "このサーバーではセーブが無効にされているよ"
+
+#~ msgid "MENU_LABEL_NUM_1"
+#~ msgstr "1"
+
+#~ msgid "MENU_LABEL_NUM_2"
+#~ msgstr "2"
+
+#~ msgid "MENU_LABEL_NUM_3"
+#~ msgstr "3"
+
+#~ msgid "MENU_LABEL_NUM_4"
+#~ msgstr "4"
+
+#~ msgid "MENU_LABEL_OK"
+#~ msgstr "OK"
+
+#, fuzzy
+#~ msgid "MENU_LABEL_PLAYSTATION"
+#~ msgstr "PlayStation"
+
+#~ msgid "MENU_CONTROLS_GAMEPAD"
+#~ msgstr "ゲームパッド"

@@ -1,0 +1,34 @@
+# Translations template for Super Tux Party.
+# Copyright (C) 2019 Super Tux Party Contributors
+# This file is distributed under the same license as the Super Tux Party project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.7\n"
+"PO-Revision-Date: 2025-01-23 09:01+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/super-tux-party/"
+"minigamesharvest_food/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
+
+msgid "HARVEST_FOOD_SELECT_ROTTEN_PLANT_MSG"
+msgstr "{player} on valinnut mätäisen kasvin!"
+
+msgid "MINIGAME_NAME"
+msgstr "Kerää ruokaa"
+
+msgid "MINIGAME_DESCRIPTION"
+msgstr ""
+"Kurpitsat kasvavat pellolla. Kuljeta ne alueellesi pisteiden keräämiseksi.\n"
+"Mitä suurempi kurpitsa, sitä enemmän pisteitä se saa! Kultaiset kurpitsat "
+"saavat tuplapisteitä!\n"
+"\n"
+"Eniten pisteitä kerännyt pelaaja voittaa.\n"
+
+msgid "MINIGAME_ACTION_PICKUP"
+msgstr "Poimi tai heitä kurpitsa"

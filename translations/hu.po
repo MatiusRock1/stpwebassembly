@@ -1,0 +1,636 @@
+# Translations template for Super Tux Party.
+# Copyright (C) 2019 Super Tux Party Contributors
+# This file is distributed under the same license as the Super Tux Party project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.7\n"
+"PO-Revision-Date: 2024-04-11 22:01+0000\n"
+"Last-Translator: Mesehordo <mesehordo@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"super-tux-party/super-tux-party/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+msgid "CONTEXT_LABEL_BUY_CAKE"
+msgstr "Torta vásárlása {amount} sütiért"
+
+msgid "CONTEXT_LABEL_DUEL_REWARD"
+msgstr "Párbaj jutalom:"
+
+msgid "CONTEXT_LABEL_DUEL_SELECT"
+msgstr "Ellenfél kiválasztása:"
+
+msgid "CONTEXT_LABEL_FINISH"
+msgstr "Vége!"
+
+msgid "CONTEXT_LABEL_GO"
+msgstr "Nyomás!"
+
+msgid "CONTEXT_LABEL_PLAYER_ROLLED"
+msgstr "{name} {value} számot dobta:"
+
+msgid "CONTEXT_LABEL_READY_QUESTION"
+msgstr "Kész?"
+
+msgid "CONTEXT_LABEL_ROLL"
+msgstr "Dobás!"
+
+msgid "CONTEXT_LABEL_ROLL_PLAYER"
+msgstr "Dobj {name}!"
+
+msgid "CONTEXT_LABEL_STEAL_ONE_CAKE"
+msgstr "A győztes elcsen 1 sütit"
+
+msgid "CONTEXT_LABEL_STEAL_TEN_COOKIES"
+msgstr "A győztes elcsen 10 sütit"
+
+msgid "CONTEXT_LABEL_TURN_NUM"
+msgstr "Kör {turn}/{total}"
+
+msgid "CONTEXT_LABEL_VS"
+msgstr "vs."
+
+msgid "CONTEXT_LABEL_YOUR_TURN"
+msgstr "Te következel!"
+
+msgid "CONTEXT_NOTIFICATION_NOT_ENOUGH_COOKIES"
+msgstr "Nincs elég sütid, hogy ezt megvedd"
+
+msgid "CONTEXT_NOTIFICATION_NOT_ENOUGH_SPACE"
+msgstr "Nincs több hely az eszköztáradban"
+
+msgid "MENU_CONTROLS_ACTION_1"
+msgstr "1. akció"
+
+msgid "MENU_CONTROLS_ACTION_2"
+msgstr "2. akció"
+
+msgid "MENU_CONTROLS_ACTION_3"
+msgstr "3. akció"
+
+msgid "MENU_CONTROLS_ACTION_4"
+msgstr "4. akció"
+
+msgid "MENU_CONTROLS_UNKNOWN_GAMEPAD_AXIS"
+msgstr "Ismeretlen tengely {axis}"
+
+msgid "MENU_CONTROLS_GENERIC_GAMEPAD_BUTTON"
+msgstr "Gamepad gomb {button}"
+
+msgid "MENU_CONTROLS_MOUSE"
+msgstr "Egér"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON"
+msgstr "Egér gomb"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_LEFT"
+msgstr "Bal egér gomb"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_MIDDLE"
+msgstr "Középső egér gomb"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_RIGHT"
+msgstr "Jobb egér gomb"
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_DOWN"
+msgstr ""
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_LEFT"
+msgstr ""
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_RIGHT"
+msgstr ""
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_UP"
+msgstr ""
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT"
+msgstr ""
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT_2"
+msgstr ""
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT_3"
+msgstr ""
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT"
+msgstr ""
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT_2"
+msgstr ""
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT_3"
+msgstr ""
+
+msgid "MENU_CONTROLS_DIR_DOWN"
+msgstr "Le"
+
+msgid "MENU_CONTROLS_DIR_LEFT"
+msgstr "Bal"
+
+msgid "MENU_CONTROLS_DIR_RIGHT"
+msgstr "Jobb"
+
+msgid "MENU_CONTROLS_DIR_UP"
+msgstr "Fel"
+
+msgid "MENU_CONTROLS_SCREENSHOT"
+msgstr "Képernyőfotó készítés"
+
+msgid "MENU_CONTROLS_DEV_MENU"
+msgstr "Fejlesztői menü megnyitása"
+
+msgid "MENU_IO_ENTER_SAVEGAME_NAME"
+msgstr "Add meg a játékmentés nevét:"
+
+msgid "MENU_IO_LOAD_GAME"
+msgstr "Játék betöltése"
+
+msgid "MENU_IO_SAVE"
+msgstr "Mentés"
+
+msgid "MENU_IO_SAVE_GAME"
+msgstr "Játék mentése"
+
+msgid "MENU_LABEL_BACK"
+msgstr "Vissza"
+
+msgid "MENU_LABEL_CANCEL"
+msgstr "Mégse"
+
+msgid "MENU_LABEL_CONTINUE"
+msgstr "Folytatás"
+
+msgid "MENU_LABEL_DESKTOP"
+msgstr "Kilépés a munkaasztalra"
+
+msgid "MENU_SETTINGS_AWARD_LINEAR"
+msgstr "Lineáris"
+
+msgid "MENU_LABEL_NEW_GAME"
+msgstr "Új játék"
+
+msgid "MENU_LABEL_START"
+msgstr "Indítás"
+
+msgid "MENU_LABEL_PAUSE"
+msgstr "Szünet"
+
+msgid "MENU_LABEL_PAUSED"
+msgstr "Szünetelve"
+
+msgid "MENU_LABEL_PAUSE_ON_WINDOW_UNFOCUS"
+msgstr "Szünet, ha az ablak fókusza elvész"
+
+msgid "MENU_LABEL_PLAY"
+msgstr "Játék"
+
+msgid "MENU_LABEL_ONLINE"
+msgstr "Online játék"
+
+msgid "MENU_LABEL_PLAYER1"
+msgstr "1.Játékos"
+
+msgid "MENU_LABEL_PLAYER2"
+msgstr "2.Játékos"
+
+msgid "MENU_LABEL_PLAYER3"
+msgstr "3.Játékos"
+
+msgid "MENU_LABEL_PLAYER4"
+msgstr "4.Játékos"
+
+msgid "MENU_LABEL_PRESS_ANY_KEY"
+msgstr "Nyomj egy gombot"
+
+msgid "MENU_LABEL_QUIT"
+msgstr "Bezárás"
+
+msgid "MENU_LABEL_READY"
+msgstr "Kész!"
+
+msgid "MENU_LABEL_RESUME"
+msgstr "Visszatérés"
+
+msgid "MENU_LABEL_RETURN_MENU"
+msgstr "Vissza a főmenüre"
+
+msgid "MENU_LABEL_SELECT_BOARD"
+msgstr "Tábla kiválasztása:"
+
+msgid "MENU_LABEL_SELECT_CHARACTER"
+msgstr "Válassz karaktert"
+
+msgid "MENU_LABEL_TRY"
+msgstr "Próba"
+
+msgid "MENU_SETTINGS_AWARD_WINNER_TAKES_ALL"
+msgstr "A győztes mindent visz"
+
+msgid "MENU_SETTINGS_AWARD_TYPE"
+msgstr "Díj típusa"
+
+msgid "MENU_LABEL_CREDITS"
+msgstr "Készítők"
+
+msgid "MENU_LABEL_SCREENSHOTS"
+msgstr "Képernyőfotók"
+
+msgid "MENU_OPTIONS"
+msgstr "Beállítások"
+
+msgid "MENU_OPTIONS_AUDIO"
+msgstr "Hang"
+
+msgid "MENU_OPTIONS_CONTROLS"
+msgstr "Irányítás"
+
+msgid "MENU_OPTIONS_EFFECTS"
+msgstr "Effektek"
+
+msgid "MENU_OPTIONS_FRAME_CAP"
+msgstr "Frame határ"
+
+msgid "MENU_OPTIONS_FULLSCREEN"
+msgstr "Teljes képernyő"
+
+msgid "MENU_OPTIONS_MSAA"
+msgstr "Többmintás élsimítás (MSAA)"
+
+msgid "MENU_OPTIONS_LANGUAGE"
+msgstr "Nyelv"
+
+msgid "MENU_OPTIONS_MASTER"
+msgstr "Fő hangerő"
+
+msgid "MENU_OPTIONS_MISC"
+msgstr "Egyéb."
+
+msgid "MENU_OPTIONS_MUSIC"
+msgstr "Zene"
+
+msgid "MENU_OPTIONS_MUTE_ON_WINDOW_UNFOCUS"
+msgstr "Némítás, ha az ablak fókusza elvész"
+
+msgid "MENU_OPTIONS_SYSTEM_DEFAULT"
+msgstr "Rendszer alapértelmezett"
+
+msgid "MENU_OPTIONS_VISUAL"
+msgstr "Vizuális"
+
+msgid "MENU_OPTIONS_VSYNC"
+msgstr "VSync"
+
+msgid "DIALOG_YES"
+msgstr "Igen"
+
+msgid "DIALOG_NO"
+msgstr "Nem"
+
+msgid "MENU_LABEL_CONNECTION_ERROR_TITLE"
+msgstr "Csatlakozási hiba"
+
+msgid "MENU_LABEL_CONNECTION_TIMEOUT"
+msgstr ""
+"Szerver nem elérhető.\n"
+"\n"
+"Kérjük, vedd fel a kapcsolatot a szerver adminisztrátorával."
+
+msgid "MENU_LABEL_NO_SERVER_VERSION"
+msgstr ""
+"Nem lehet ellenőrizni a szerver verzióját.\n"
+"\n"
+"Kérjük, vedd fel a kapcsolatot a szerver adminisztrátorával."
+
+msgid "MENU_LABEL_VERSION_MISMATCH_TITLE"
+msgstr "Verzió félreértés"
+
+msgid "MENU_LABEL_VERSION_MISMATCH"
+msgstr ""
+"A SuperTuxParty verziód nem egyezik a szerverével.\n"
+"A Te verziód: {local}\n"
+"A Szerver verziója: {Remote}\n"
+"\n"
+"Kérjük, tölts le egy kompatibilis verziót, hogy játszani tudj ezen a "
+"szerveren."
+
+msgid "MENU_LABEL_CHOOSE_SERVER"
+msgstr "Válassz szervert:"
+
+msgid "MENU_LABEL_COPY"
+msgstr "Vágólapra másolás"
+
+msgid "MENU_LABEL_LOBBY_CREATE"
+msgstr "Játék létrehozása"
+
+msgid "MENU_LABEL_LOBBY_JOIN"
+msgstr "Csatlakozás játékhoz"
+
+msgid "MENU_LOBBY_SETTINGS"
+msgstr "Játék opciók"
+
+msgid "MENU_SETTINGS_PUBLIC"
+msgstr "Publikus játék"
+
+msgid "MENU_SETTINGS_CAKE_COST"
+msgstr "Torta költség"
+
+msgid "MENU_SETTINGS_TURNS"
+msgstr "Körök"
+
+msgid "MENU_SETTINGS_ENABLE_TIMEOUT"
+msgstr "játékosok kidobása az inaktivitásuk miatt"
+
+msgid "MENU_SETTINGS_TIMEOUT"
+msgstr "Időkorlát"
+
+msgid "AI_DIFFICULTY"
+msgstr "AI nehézség:"
+
+msgid "DIFFICULTY_EASY"
+msgstr "Könnyű"
+
+msgid "DIFFICULTY_NORMAL"
+msgstr "Normális"
+
+msgid "DIFFICULTY_HARD"
+msgstr "Nehéz"
+
+msgid "CONTEXT_GNU_ACTION_TYPE"
+msgstr "GNU cselekvés"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY"
+msgstr "Grafikai minőség"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_HIGH"
+msgstr "Magas"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_MEDIUM"
+msgstr "Közepes"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_LOW"
+msgstr "Alacsony"
+
+msgid "MENU_OPTIONS_FXAA"
+msgstr "FXAA"
+
+msgid "MENU_GRAPHIC_QUALITY_REBOOT_NOTICE"
+msgstr ""
+"A grafikai minőség megváltoztatása, csak az újraindítás után következik be"
+
+msgid "MENU_LOBBY_ADD_PLAYER"
+msgstr "Nyomd meg a csatlakozáshoz"
+
+msgid "CONTEXT_SPEAKER_SARA"
+msgstr "Sára"
+
+msgid "CONTEXT_WINNER_ANNOUNCEMENT"
+msgstr ""
+"Tudom, hogy mindannyian keményen harcoltatok a győzelemért, de most a játék "
+"véget ért, és győztesre van szükségünk. A győztes pedig…"
+
+msgid "CONTEXT_WINNER_REVEAL_ONE_PLAYER"
+msgstr "[color=#ff3300]{0}[/color]!"
+
+msgid "CONTEXT_WINNER_REVEAL_TWO_PLAYER"
+msgstr "[color=#ff3300]{0}[/color] és [color=#33ff00]{1}[/color]!"
+
+msgid "CONTEXT_WINNER_REVEAL_THREE_PLAYER"
+msgstr ""
+"[color=#ff3300]{0}[/color], [color=#33ff00]{1}[/color] és "
+"[color=#00ff88]{2}[/color]!"
+
+msgid "CONTEXT_WINNER_REVEAL_FOUR_PLAYER"
+msgstr ""
+"[color=#ff3300]{0}[/color], [color=#33ff00]{1}[/color], "
+"[color=#00ff88]{2}[/color] és [color=#ffff33]{3}[/color]!"
+
+msgid "CONTEXT_LABEL_CAKES"
+msgstr "Torták"
+
+msgid "CONTEXT_LABEL_COOKIES"
+msgstr "Sütik"
+
+msgid "CONTEXT_GNU_NAME"
+msgstr "GNU"
+
+msgid "CONTEXT_GNU_EVENT_START"
+msgstr ""
+"Hé, szükség van valamilyen segítségre? Hadd lássam, mit tehetek értetek ma…"
+
+msgid "CONTEXT_GNU_MINIGAME_SOLO_MODERATION"
+msgstr ""
+"Ez egy egyszemélyes mini-játék! Mutasd meg a képességeidet, és adok neked "
+"egy [color=#dd44ff]{reward}[/color]"
+
+msgid "CONTEXT_GNU_MINIGAME_SOLO"
+msgstr "Egyszemélyes mini-játék"
+
+msgid "CONTEXT_GNU_MINIGAME_COOP_MODERATION"
+msgstr "Játsszunk együtt! Biztos vagyok benne, hogy ez szórakoztató lesz"
+
+msgid "CONTEXT_GNU_MINIGAME_COOP"
+msgstr "Közös mini-játék"
+
+msgid "CONTEXT_GNU_SOLO_VICTORY"
+msgstr "Ügyes. Itt van a jutalmad!"
+
+msgid "CONTEXT_GNU_SOLO_LOSS"
+msgstr "Ez nem sikerült most. Talán legközelebb."
+
+msgid "CONTEXT_GNU_COOP_VICTORY"
+msgstr "Megcsináltátok. Várlak legközelebb is."
+
+msgid "CONTEXT_GNU_COOP_LOSS"
+msgstr ""
+"Nem sikerült, de legalább gyakoroltátok a csapatmunkát. Biztos vagyok benne, "
+"hogy legközelebb sikerülni fog!"
+
+msgid "CONTEXT_NOLOK_NAME"
+msgstr "Nolok"
+
+msgid "CONTEXT_NOLOK_ACTION_TYPE"
+msgstr "Nolok akció"
+
+msgid "CONTEXT_NOLOK_EVENT_START"
+msgstr "Ez az én fordulóm! Pontosan tudom, mit fogok tenni…"
+
+msgid "CONTEXT_NOLOK_MINIGAME_SOLO_MODERATION"
+msgstr ""
+"Kihívlak egy minijátékra! Ha le tudsz győzni, megtarthatod a cuccaidat. Ha "
+"nem, elviszem az egyik tortádat…"
+
+msgid "CONTEXT_NOLOK_MINIGAME_SOLO"
+msgstr "Egyszemélyes mini-játék"
+
+msgid "CONTEXT_NOLOK_MINIGAME_COOP_MODERATION"
+msgstr "Én ellenem mindenki? Azt hiszitek van esélyetek?"
+
+msgid "CONTEXT_NOLOK_MINIGAME_COOP"
+msgstr "Közös mini-játék"
+
+msgid "CONTEXT_NOLOK_SOLO_VICTORY"
+msgstr "Légy hálás, hogy megmentettelek!"
+
+msgid "CONTEXT_NOLOK_SOLO_LOSS"
+msgstr "Alig várom, hogy megverjelek újra!"
+
+msgid "CONTEXT_NOLOK_COOP_VICTORY"
+msgstr "Legközelebb nem fogsz nyerni."
+
+msgid "CONTEXT_NOLOK_COOP_LOSS"
+msgstr "Haha, milyen könnyű győzelem."
+
+msgid "CONTEXT_NOLOK_LOSE_COOKIES_MODERATION"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_LOSE_COOKIES"
+msgstr "Elvesztetted a sütijeidet"
+
+msgid "CONTEXT_NOLOK_ROLL_MODIFIER_MODERATION"
+msgstr ""
+
+msgid "CONTEXT_NOLOK_ROLL_MODIFIER"
+msgstr "Elátkozott kocka"
+
+msgid "CONTEXT_SHOW_TUTORIAL"
+msgstr ""
+"Úgy tűnik, most játszol először. Akarod, hogy elmagyarázzam a szabályokat?"
+
+msgid "CONTEXT_TUTORIAL_DICE"
+msgstr ""
+"A játékot felváltva játsszák. Amikor te vagy a soros: dobsz egy kockával, és "
+"annyit lépsz, ahányast dobtál."
+
+msgid "CONTEXT_TUTORIAL_COOKIES"
+msgstr ""
+"A fizetőeszköz a süti. A sütiket minijátékok megnyerésével lehet keresni. A "
+"sütikért a boltok területén áthaladva vásárolhatsz tárgyakat."
+
+msgid "CONTEXT_TUTORIAL_CAKES"
+msgstr ""
+
+msgid "CONTEXT_TUTORIAL_SPACES_NORMAL"
+msgstr ""
+"Különböző típusú mezők vannak, amelyekre léphetsz: A kék mezők sütiket "
+"adnak, míg a piros mezők elveszik a sütiket."
+
+msgid "CONTEXT_TUTORIAL_SPACES_SPECIAL"
+msgstr ""
+"A zöld mezők tábla-specifikus eseményeket indítanak. A csata-mezők lehetővé "
+"teszik, hogy kihívj egy másik játékost egy párbaj minijátékra."
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES"
+msgstr ""
+"Miután minden játékos sorra került, egy minijátékra kerül sor. A minijátékok "
+"három különböző fajtájúak:"
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_FFA"
+msgstr ""
+"Mindenki-mindenki-ellen, ahol mindenki mindenkivel versenyez a győzelemért."
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_2V2"
+msgstr "Kettő a kettő ellen, ahol kétfős csapatokban mérkőztök meg egymással."
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_1V3"
+msgstr ""
+"És egy-a-három-ellen, ahol az egyik versenyez a többivel. A szólójátékos "
+"bónuszt kap, hogy kiegyenlítse a dolgokat."
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_SPECIAL"
+msgstr ""
+"Különleges minijátékok kerülnek lejátszásra, amikor a játékos egy GNU vagy "
+"NOLOK mezőn landol. A GNU minijátékok jók, míg a NOLOK minijátékok rosszak "
+"neked. Szóval jobb, ha távol maradsz az utóbbitól!"
+
+msgid "CONTEXT_TUTORIAL_END"
+msgstr "Ennyi, most már készen állsz az indulásra! Jó szórakozást!"
+
+msgid "CONTEXT_CAKE_PLACED"
+msgstr "Itt a torta, gyere és vedd el!"
+
+msgid "CONTEXT_CAKE_WANT_BUY"
+msgstr "Szeretnél tortát venni?"
+
+msgid "CONTEXT_CAKE_BUY_AMOUNT"
+msgstr "Hány tortát szeretnél vásárolni?"
+
+msgid "CONTEXT_CAKE_COLLECTED"
+msgstr ""
+"Remek, [color=#00aaff]{player}[/color]. Itt van "
+"[color=#dd44ff]{amount}[/color] torta, neked."
+
+msgid "CONTEXT_CAKE_CANT_AFFORD"
+msgstr "Sajnálom, de nincs elég sütid, hogy tortát vegyél."
+
+msgid "SHOP_LABEL_TITLE"
+msgstr "Tárgy bolt"
+
+msgid "SHOP_LABEL_DESCRIPTION"
+msgstr "Tárgy leírás"
+
+msgid "SHOP_ITEM_NO_DESCRIPTION"
+msgstr "Nincs leírás"
+
+msgid "REWARDSCREEN_MINIGAME_RESULTS"
+msgstr "Minijáték eredmények"
+
+msgid "REWARDSCREEN_MINIGAME_WINNER"
+msgstr "Nyertes!"
+
+msgid "REWARDSCREEN_MINIGAME_REWARD"
+msgstr "Nyeremény:"
+
+msgid "REWARDSCREEN_PRESS_BUTTON"
+msgstr "Nyomd meg"
+
+msgid "MINIGAME_ACTION_MOVEMENT"
+msgstr "Mozgás"
+
+msgid "MINIGAME_TYPE_FFA"
+msgstr "Mindenki-mindenki-ellen minijáték"
+
+msgid "MINIGAME_TYPE_2v2"
+msgstr "Kettő-kettő elleni minijáték"
+
+msgid "MINIGAME_TYPE_1v3"
+msgstr "Egy-három elleni minijáték"
+
+msgid "MINIGAME_TYPE_DUEL"
+msgstr "Párbaj minijáték"
+
+msgid "MINIGAME_TYPE_GNU_COOP"
+msgstr "GNU közös minijáték"
+
+msgid "MINIGAME_TYPE_GNU_SOLO"
+msgstr "GNU egyszemélyes minijáték"
+
+msgid "MINIGAME_TYPE_NOLOK_COOP"
+msgstr "Nolok Közös minijáték"
+
+msgid "MINIGAME_TYPE_NOLOK_SOLO"
+msgstr "Nolok egyszemélyes minijáték"
+
+msgid "ERROR"
+msgstr "Hiba"
+
+msgid "SAVE_GAME_CANNOT_SAVE"
+msgstr "Jelenleg nem lehet menteni a játékot"
+
+msgid "SAVE_GAME_DISABLED"
+msgstr "A játékok mentése le van tiltva ezen a szerveren"
+
+#~ msgid "MENU_LABEL_OK"
+#~ msgstr "OK"
+
+#, fuzzy
+#~ msgid "MENU_LABEL_PLAYSTATION"
+#~ msgstr "PlayStation"
+
+#~ msgid "MENU_CONTROLS_GAMEPAD"
+#~ msgstr "Kontroller"

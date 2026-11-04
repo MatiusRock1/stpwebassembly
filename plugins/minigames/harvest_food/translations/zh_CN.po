@@ -1,0 +1,36 @@
+# Translations template for Super Tux Party.
+# Copyright (C) 2019 Super Tux Party Contributors
+# This file is distributed under the same license as the Super Tux Party project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.7\n"
+"PO-Revision-Date: 2024-04-07 08:52+0000\n"
+"Last-Translator: 复予 <clonewith@qq.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"super-tux-party/minigamesharvest_food/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+msgid "HARVEST_FOOD_SELECT_ROTTEN_PLANT_MSG"
+msgstr "{player} 选中了腐烂植物！"
+
+msgid "MINIGAME_ACTION_JUMP"
+msgstr "跳跃"
+
+msgid "MINIGAME_NAME"
+msgstr "收获粮食"
+
+msgid "MINIGAME_DESCRIPTION"
+msgstr ""
+"南瓜在田野生长。把它们带到你的区域可以得分。南瓜越大，得分越高！金色南瓜可得"
+"双倍分数！\n"
+"\n"
+"得分最多的玩家获胜。\n"
+
+msgid "MINIGAME_ACTION_PICKUP"
+msgstr "捡起或扔掉南瓜"

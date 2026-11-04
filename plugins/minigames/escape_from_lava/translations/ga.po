@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-07-13 14:09+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
+"Language-Team: Irish <https://hosted.weblate.org/projects/super-tux-party/"
+"minigamesescape_from_lava/ga/>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :("
+"n>6 && n<11) ? 3 : 4;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+msgid "MINIGAME_NAME"
+msgstr "Éalú ó Lava"
+
+msgid "MINIGAME_ACTION_LEFT"
+msgstr "Bog ar chlé"
+
+msgid "ESCAPE_FROM_LAVA_FINISH_MSG"
+msgstr "Críochnaigh!"
+
+msgid "MINIGAME_ACTION_DOWN"
+msgstr "Bog Síos"
+
+msgid "MINIGAME_ACTION_UP"
+msgstr "Éirí suas"
+
+msgid "MINIGAME_DESCRIPTION"
+msgstr ""
+"Rás na n-imreoirí in aghaidh a chéile chun an barr a bhaint amach, agus an "
+"lava ag ardú thíos.\n"
+"Caithfidh siad dul trí dhoirse iolracha. Tá ceann de na doirse seo bactha "
+"agus ní osclóidh sé.\n"
+"Bhuaigh an chéad imreoir a fhágann go bhfuil sé sábháilte go dtí an barr!"
+
+msgid "MINIGAME_ACTION_RIGHT"
+msgstr "Bog ar dheis"

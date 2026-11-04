@@ -1,0 +1,621 @@
+# Translations template for Super Tux Party.
+# Copyright (C) 2019 Super Tux Party Contributors
+# This file is distributed under the same license as the Super Tux Party project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.7\n"
+"PO-Revision-Date: 2024-04-16 10:11+0000\n"
+"Last-Translator: 复予 <clonewith@qq.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"super-tux-party/super-tux-party/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+msgid "CONTEXT_LABEL_BUY_CAKE"
+msgstr "花 {amount} 个饼干买一个蛋糕"
+
+msgid "CONTEXT_LABEL_DUEL_REWARD"
+msgstr "双倍奖励："
+
+msgid "CONTEXT_LABEL_DUEL_SELECT"
+msgstr "选择对手："
+
+msgid "CONTEXT_LABEL_FINISH"
+msgstr "结束！"
+
+msgid "CONTEXT_LABEL_GO"
+msgstr "开始！"
+
+msgid "CONTEXT_LABEL_PLAYER_ROLLED"
+msgstr "{name} 抛出了 {value}："
+
+msgid "CONTEXT_LABEL_READY_QUESTION"
+msgstr "准备好了吗？"
+
+msgid "CONTEXT_LABEL_ROLL"
+msgstr "抛！"
+
+msgid "CONTEXT_LABEL_ROLL_PLAYER"
+msgstr "抛 {name}！"
+
+msgid "CONTEXT_LABEL_STEAL_ONE_CAKE"
+msgstr "胜者偷走一块蛋糕"
+
+msgid "CONTEXT_LABEL_STEAL_TEN_COOKIES"
+msgstr "胜者偷走 10 块饼干"
+
+msgid "CONTEXT_LABEL_TURN_NUM"
+msgstr "第 {turn}/{total} 轮"
+
+msgid "CONTEXT_LABEL_VS"
+msgstr "对"
+
+msgid "CONTEXT_LABEL_YOUR_TURN"
+msgstr "该你了！"
+
+msgid "CONTEXT_NOTIFICATION_NOT_ENOUGH_COOKIES"
+msgstr "你的饼干不够买那个"
+
+msgid "CONTEXT_NOTIFICATION_NOT_ENOUGH_SPACE"
+msgstr "物品栏已满"
+
+msgid "MENU_CONTROLS_ACTION_1"
+msgstr "操作 1"
+
+msgid "MENU_CONTROLS_ACTION_2"
+msgstr "操作 2"
+
+msgid "MENU_CONTROLS_ACTION_3"
+msgstr "操作 3"
+
+msgid "MENU_CONTROLS_ACTION_4"
+msgstr "操作 4"
+
+msgid "MENU_CONTROLS_UNKNOWN_GAMEPAD_AXIS"
+msgstr "未知轴 {axis}"
+
+msgid "MENU_CONTROLS_GENERIC_GAMEPAD_BUTTON"
+msgstr "游戏板按钮 {button}"
+
+msgid "MENU_CONTROLS_MOUSE"
+msgstr "鼠标"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON"
+msgstr "鼠标按钮"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_LEFT"
+msgstr "鼠标左键"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_MIDDLE"
+msgstr "鼠标中键"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_RIGHT"
+msgstr "鼠标右键"
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_DOWN"
+msgstr "向下滚动按钮"
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_LEFT"
+msgstr "向左滚动按钮"
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_RIGHT"
+msgstr "向右滚动按钮"
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_UP"
+msgstr "向上滚动按钮"
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT"
+msgstr "左扳机"
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT_2"
+msgstr "左扳机 2"
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT_3"
+msgstr "左扳机 3"
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT"
+msgstr "右扳机"
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT_2"
+msgstr "右扳机 2"
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT_3"
+msgstr "右扳机 3"
+
+msgid "MENU_CONTROLS_DIR_DOWN"
+msgstr "下"
+
+msgid "MENU_CONTROLS_DIR_LEFT"
+msgstr "左"
+
+msgid "MENU_CONTROLS_DIR_RIGHT"
+msgstr "右"
+
+msgid "MENU_CONTROLS_DIR_UP"
+msgstr "上"
+
+msgid "MENU_CONTROLS_SCREENSHOT"
+msgstr "截图"
+
+msgid "MENU_CONTROLS_DEV_MENU"
+msgstr "打开开发者菜单"
+
+msgid "MENU_IO_ENTER_SAVEGAME_NAME"
+msgstr "输入保存游戏名称："
+
+msgid "MENU_IO_LOAD_GAME"
+msgstr "载入游戏"
+
+msgid "MENU_IO_SAVE"
+msgstr "保存"
+
+msgid "MENU_IO_SAVE_GAME"
+msgstr "保存游戏"
+
+msgid "MENU_LABEL_BACK"
+msgstr "返回"
+
+msgid "MENU_LABEL_CANCEL"
+msgstr "取消"
+
+msgid "MENU_LABEL_CONTINUE"
+msgstr "继续"
+
+msgid "MENU_LABEL_DESKTOP"
+msgstr "退出至桌面"
+
+msgid "MENU_SETTINGS_AWARD_LINEAR"
+msgstr "线性"
+
+msgid "MENU_LABEL_NEW_GAME"
+msgstr "新游戏"
+
+msgid "MENU_LABEL_START"
+msgstr "开始"
+
+msgid "MENU_LABEL_PAUSE"
+msgstr "暂停"
+
+msgid "MENU_LABEL_PAUSED"
+msgstr "暂停中"
+
+msgid "MENU_LABEL_PAUSE_ON_WINDOW_UNFOCUS"
+msgstr "窗口失去焦点时暂停"
+
+msgid "MENU_LABEL_PLAY"
+msgstr "开始"
+
+msgid "MENU_LABEL_ONLINE"
+msgstr "在线游玩"
+
+msgid "MENU_LABEL_PLAYER1"
+msgstr "玩家 1"
+
+msgid "MENU_LABEL_PLAYER2"
+msgstr "玩家 2"
+
+msgid "MENU_LABEL_PLAYER3"
+msgstr "玩家 3"
+
+msgid "MENU_LABEL_PLAYER4"
+msgstr "玩家 4"
+
+msgid "MENU_LABEL_PRESS_ANY_KEY"
+msgstr "请按任意键"
+
+msgid "MENU_LABEL_QUIT"
+msgstr "退出"
+
+msgid "MENU_LABEL_READY"
+msgstr "准备！"
+
+msgid "MENU_LABEL_RESUME"
+msgstr "继续"
+
+msgid "MENU_LABEL_RETURN_MENU"
+msgstr "返回至主界面"
+
+msgid "MENU_LABEL_SELECT_BOARD"
+msgstr "选择棋盘："
+
+msgid "MENU_LABEL_SELECT_CHARACTER"
+msgstr "选择人物"
+
+msgid "MENU_LABEL_TRY"
+msgstr "试一试"
+
+msgid "MENU_SETTINGS_AWARD_WINNER_TAKES_ALL"
+msgstr "胜者获得全部"
+
+msgid "MENU_SETTINGS_AWARD_TYPE"
+msgstr "奖励类型"
+
+msgid "MENU_LABEL_CREDITS"
+msgstr "鸣谢"
+
+msgid "MENU_LABEL_SCREENSHOTS"
+msgstr "截图"
+
+msgid "MENU_OPTIONS"
+msgstr "设置"
+
+msgid "MENU_OPTIONS_AUDIO"
+msgstr "音频"
+
+msgid "MENU_OPTIONS_CONTROLS"
+msgstr "操作方式"
+
+msgid "MENU_OPTIONS_EFFECTS"
+msgstr "效果"
+
+msgid "MENU_OPTIONS_FRAME_CAP"
+msgstr "帧数上限"
+
+msgid "MENU_OPTIONS_FULLSCREEN"
+msgstr "全屏"
+
+msgid "MENU_OPTIONS_MSAA"
+msgstr "多重采样抗锯齿"
+
+msgid "MENU_OPTIONS_LANGUAGE"
+msgstr "语言"
+
+msgid "MENU_OPTIONS_MASTER"
+msgstr "主要"
+
+msgid "MENU_OPTIONS_MISC"
+msgstr "其它"
+
+msgid "MENU_OPTIONS_MUSIC"
+msgstr "音乐"
+
+msgid "MENU_OPTIONS_MUTE_ON_WINDOW_UNFOCUS"
+msgstr "窗口失去焦点时静音"
+
+msgid "MENU_OPTIONS_SYSTEM_DEFAULT"
+msgstr "系统默认"
+
+msgid "MENU_OPTIONS_VISUAL"
+msgstr "外观"
+
+msgid "MENU_OPTIONS_VSYNC"
+msgstr "垂直同步"
+
+msgid "DIALOG_YES"
+msgstr "是"
+
+msgid "DIALOG_NO"
+msgstr "否"
+
+msgid "MENU_LABEL_CONNECTION_ERROR_TITLE"
+msgstr "连接错误"
+
+msgid "MENU_LABEL_CONNECTION_TIMEOUT"
+msgstr ""
+"无法连接服务器。\n"
+"\n"
+"请联系服务器管理员。"
+
+msgid "MENU_LABEL_NO_SERVER_VERSION"
+msgstr ""
+"无法确定服务器版本。\n"
+"\n"
+"请联系服务器管理员。"
+
+msgid "MENU_LABEL_VERSION_MISMATCH_TITLE"
+msgstr "版本不匹配"
+
+msgid "MENU_LABEL_VERSION_MISMATCH"
+msgstr ""
+"你正在运行服务器不兼容的 SuperTuxParty 版本。\n"
+"你的版本：{local}\n"
+"服务器版本：{remote}\n"
+"\n"
+"请下载兼容的版本以在此服务器上游玩。"
+
+msgid "MENU_LABEL_CHOOSE_SERVER"
+msgstr "选择服务器："
+
+msgid "MENU_LABEL_COPY"
+msgstr "复制到剪贴板"
+
+msgid "MENU_LABEL_LOBBY_CREATE"
+msgstr "创建房间"
+
+msgid "MENU_LABEL_LOBBY_JOIN"
+msgstr "加入房间"
+
+msgid "MENU_LOBBY_SETTINGS"
+msgstr "游戏设置"
+
+msgid "MENU_SETTINGS_PUBLIC"
+msgstr "公开房间"
+
+msgid "MENU_SETTINGS_CAKE_COST"
+msgstr "蛋糕价格"
+
+msgid "MENU_SETTINGS_TURNS"
+msgstr "轮数"
+
+msgid "MENU_SETTINGS_ENABLE_TIMEOUT"
+msgstr "移除不活跃玩家"
+
+msgid "MENU_SETTINGS_TIMEOUT"
+msgstr "时间限制"
+
+msgid "AI_DIFFICULTY"
+msgstr "AI 难度："
+
+msgid "DIFFICULTY_EASY"
+msgstr "简单"
+
+msgid "DIFFICULTY_NORMAL"
+msgstr "普通"
+
+msgid "DIFFICULTY_HARD"
+msgstr "困难"
+
+msgid "CONTEXT_GNU_ACTION_TYPE"
+msgstr "GNU 操作"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY"
+msgstr "图形质量"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_HIGH"
+msgstr "高"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_MEDIUM"
+msgstr "中"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_LOW"
+msgstr "低"
+
+msgid "MENU_OPTIONS_FXAA"
+msgstr "FXAA"
+
+msgid "MENU_GRAPHIC_QUALITY_REBOOT_NOTICE"
+msgstr "图形质量更改只会在重启游戏后生效"
+
+msgid "MENU_LOBBY_ADD_PLAYER"
+msgstr "点击加入"
+
+msgid "CONTEXT_SPEAKER_SARA"
+msgstr "Sara"
+
+msgid "CONTEXT_WINNER_ANNOUNCEMENT"
+msgstr "我知道你们所有人都努力得胜，但游戏结束了，我们需要一位胜者。胜者是…"
+
+msgid "CONTEXT_WINNER_REVEAL_ONE_PLAYER"
+msgstr "[color=#ff3300]{0}[/color]！"
+
+msgid "CONTEXT_WINNER_REVEAL_TWO_PLAYER"
+msgstr "[color=#ff3300]{0}[/color] 与 [color=#33ff00]{1}[/color]！"
+
+msgid "CONTEXT_WINNER_REVEAL_THREE_PLAYER"
+msgstr ""
+"[color=#ff3300]{0}[/color]、[color=#33ff00]{1}[/color] 与 "
+"[color=#00ff88]{2}[/color]！"
+
+msgid "CONTEXT_WINNER_REVEAL_FOUR_PLAYER"
+msgstr ""
+"[color=#ff3300]{0}[/color]、[color=#33ff00]{1}[/color]、[color=#00ff88]{2}[/c"
+"olor] 与 [color=#ffff33]{3}[/color]！"
+
+msgid "CONTEXT_LABEL_CAKES"
+msgstr "蛋糕"
+
+msgid "CONTEXT_LABEL_COOKIES"
+msgstr "饼干"
+
+msgid "CONTEXT_GNU_NAME"
+msgstr "GNU"
+
+msgid "CONTEXT_GNU_EVENT_START"
+msgstr "嘿，需要帮忙吗？让我看看能帮你做什么…"
+
+msgid "CONTEXT_GNU_MINIGAME_SOLO_MODERATION"
+msgstr "这是场单人小游戏！向我展示你的能力，我会给你一个[color=#dd44ff]{reward}[/colo"
+"r]"
+
+msgid "CONTEXT_GNU_MINIGAME_SOLO"
+msgstr "单人小游戏"
+
+msgid "CONTEXT_GNU_MINIGAME_COOP_MODERATION"
+msgstr "我们一起玩吧！我保证一定很好玩"
+
+msgid "CONTEXT_GNU_MINIGAME_COOP"
+msgstr "合作小游戏"
+
+msgid "CONTEXT_GNU_SOLO_VICTORY"
+msgstr "干得好。给你奖励！"
+
+msgid "CONTEXT_GNU_SOLO_LOSS"
+msgstr "没成功呢。下次再试试吧。"
+
+msgid "CONTEXT_GNU_COOP_VICTORY"
+msgstr "你做到了。希望下次再来。"
+
+msgid "CONTEXT_GNU_COOP_LOSS"
+msgstr "你没有成功，但你锻炼了团队合作能力。下次一定会成功的！"
+
+msgid "CONTEXT_NOLOK_NAME"
+msgstr "Nolok"
+
+msgid "CONTEXT_NOLOK_ACTION_TYPE"
+msgstr "Nolok 操作"
+
+msgid "CONTEXT_NOLOK_EVENT_START"
+msgstr "到我了！我当然知道该做什么…"
+
+msgid "CONTEXT_NOLOK_MINIGAME_SOLO_MODERATION"
+msgstr "我向你发出挑战，玩把小游戏！如果你打败我了，就可以留住你的东西。如果输了，我"
+"就拿走一块蛋糕…"
+
+msgid "CONTEXT_NOLOK_MINIGAME_SOLO"
+msgstr "单人小游戏"
+
+msgid "CONTEXT_NOLOK_MINIGAME_COOP_MODERATION"
+msgstr "我和你们对局？你们觉得有机会打败我吗？"
+
+msgid "CONTEXT_NOLOK_MINIGAME_COOP"
+msgstr "合作小游戏"
+
+msgid "CONTEXT_NOLOK_SOLO_VICTORY"
+msgstr "就感谢我放过你了吧！"
+
+msgid "CONTEXT_NOLOK_SOLO_LOSS"
+msgstr "期待下次打败你！"
+
+msgid "CONTEXT_NOLOK_COOP_VICTORY"
+msgstr "下次你们就不会赢了。"
+
+msgid "CONTEXT_NOLOK_COOP_LOSS"
+msgstr "哈哈，这么轻松就赢了。"
+
+msgid "CONTEXT_NOLOK_LOSE_COOKIES_MODERATION"
+msgstr ""
+"哈哈，你的 [color=#00aaff]{amount}[/color] 块饼干先拿走了。我想 "
+"[color=#dd44ff]{player}[/color] 一定会用到的"
+
+msgid "CONTEXT_NOLOK_LOSE_COOKIES"
+msgstr "失去饼干"
+
+msgid "CONTEXT_NOLOK_ROLL_MODIFIER_MODERATION"
+msgstr ""
+"也许你应该慢一点。我们看看接下来 [color=#dd44ff]{duration}[/color] 轮，"
+"你少移动 [color=#00aaff]{amount}[/color] 步的话会怎样"
+
+msgid "CONTEXT_NOLOK_ROLL_MODIFIER"
+msgstr "诅咒骰子"
+
+msgid "CONTEXT_SHOW_TUTORIAL"
+msgstr "看起来你是第一次游玩。需要我解释规则吗？"
+
+msgid "CONTEXT_TUTORIAL_DICE"
+msgstr "游戏以回合进行。轮到你时，你掷骰子、向前移动显示的步数。"
+
+msgid "CONTEXT_TUTORIAL_COOKIES"
+msgstr "饼干作为货币使用。你在小游戏中获胜时可以得到饼干。经过商店格时，你可以用饼干"
+"购买物品。"
+
+msgid "CONTEXT_TUTORIAL_CAKES"
+msgstr "你要收集最多蛋糕才能获胜。饼干会作为决胜条件使用。你可以在棋盘上的特殊位置购"
+"买蛋糕。在购买后，蛋糕就会移动到其他位置。"
+
+msgid "CONTEXT_TUTORIAL_SPACES_NORMAL"
+msgstr "你能到达的格子类型如下：蓝色格子会给你饼干，而红色格子会扣除饼干。"
+
+msgid "CONTEXT_TUTORIAL_SPACES_SPECIAL"
+msgstr "绿色格子会触发棋盘专有事件。在双人游戏中，战斗格子让你挑战另一位玩家。"
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES"
+msgstr "每位玩家都进行回合后，会进行小游戏。有三种不同的小游戏："
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_FFA"
+msgstr "自由游戏，玩家间相互比拼以获得胜利。"
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_2V2"
+msgstr "二对二，每两位玩家组队游玩。"
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_1V3"
+msgstr "还有一对三游戏，其中一位玩家与其他玩家对局。单人玩家会获得加分，使游戏更加顺"
+"利。"
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_SPECIAL"
+msgstr "当玩家到达 GNU 或 NOLOK 格子时，会进行特殊小游戏。GNU 小游戏对你有利，而 "
+"NOLOK 小游戏则反之。因此最好离后者远点！"
+
+msgid "CONTEXT_TUTORIAL_END"
+msgstr "就这些了，现在你们都准备好了！祝游戏愉快！"
+
+msgid "CONTEXT_CAKE_PLACED"
+msgstr "蛋糕在这里，来拿吧！"
+
+msgid "CONTEXT_CAKE_WANT_BUY"
+msgstr "你想要买块蛋糕吗？"
+
+msgid "CONTEXT_CAKE_BUY_AMOUNT"
+msgstr "你想买多少块蛋糕？"
+
+msgid "CONTEXT_CAKE_COLLECTED"
+msgstr ""
+"干得好，[color=#00aaff]{player}[/color]。给你 [color=#dd44ff]{amount}[/color]"
+" 块蛋糕。"
+
+msgid "CONTEXT_CAKE_CANT_AFFORD"
+msgstr "我很抱歉，但你的饼干不够买蛋糕。"
+
+msgid "SHOP_LABEL_TITLE"
+msgstr "物品商店"
+
+msgid "SHOP_LABEL_DESCRIPTION"
+msgstr "物品描述"
+
+msgid "SHOP_ITEM_NO_DESCRIPTION"
+msgstr "无描述"
+
+msgid "REWARDSCREEN_MINIGAME_RESULTS"
+msgstr "小游戏结果"
+
+msgid "REWARDSCREEN_MINIGAME_WINNER"
+msgstr "胜者！"
+
+msgid "REWARDSCREEN_MINIGAME_REWARD"
+msgstr "奖励："
+
+msgid "REWARDSCREEN_PRESS_BUTTON"
+msgstr "按下"
+
+msgid "MINIGAME_ACTION_MOVEMENT"
+msgstr "移动"
+
+msgid "MINIGAME_TYPE_FFA"
+msgstr "自由对抗小游戏"
+
+msgid "MINIGAME_TYPE_2v2"
+msgstr "二对二小游戏"
+
+msgid "MINIGAME_TYPE_1v3"
+msgstr "一对三小游戏"
+
+msgid "MINIGAME_TYPE_DUEL"
+msgstr "双人小游戏"
+
+msgid "MINIGAME_TYPE_GNU_COOP"
+msgstr "GNU 合作小游戏"
+
+msgid "MINIGAME_TYPE_GNU_SOLO"
+msgstr "GNU 单人小游戏"
+
+msgid "MINIGAME_TYPE_NOLOK_COOP"
+msgstr "Nolok 合作小游戏"
+
+msgid "MINIGAME_TYPE_NOLOK_SOLO"
+msgstr "Nolok 单人小游戏"
+
+msgid "ERROR"
+msgstr "错误"
+
+msgid "SAVE_GAME_CANNOT_SAVE"
+msgstr "此时无法保存游戏"
+
+msgid "SAVE_GAME_DISABLED"
+msgstr "此服务器禁止保存游戏"
+
+#~ msgid "MENU_LABEL_NINTENDO_DS"
+#~ msgstr "任天堂 DS"
+
+#~ msgid "MENU_LABEL_OK"
+#~ msgstr "OK"
+
+#, fuzzy
+#~ msgid "MENU_LABEL_PLAYSTATION"
+#~ msgstr "PlayStation"
+
+#~ msgid "MENU_CONTROLS_GAMEPAD"
+#~ msgstr "游戏手柄"

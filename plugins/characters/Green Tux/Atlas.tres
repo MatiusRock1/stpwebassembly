@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://c2d58012kt3td"]
+
+[ext_resource type="Texture2D" uid="uid://mc7pg3qm2ohv" path="res://plugins/characters/Green Tux/Atlas_Party.png" id="1_s8udk"]
+
+[resource]
+resource_name = "Atlas"
+diffuse_mode = 3
+specular_mode = 1
+albedo_texture = ExtResource("1_s8udk")

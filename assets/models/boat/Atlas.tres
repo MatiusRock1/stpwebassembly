@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://ugg8pm755gvl"]
+
+[ext_resource type="Texture2D" uid="uid://c7eia611eed1b" path="res://assets/models/boat/boat_Atlas_Party.png" id="1_pk507"]
+
+[resource]
+resource_name = "Atlas"
+albedo_texture = ExtResource("1_pk507")
+roughness = 0.5

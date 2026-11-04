@@ -1,0 +1,53 @@
+# Translations template for Super Tux Party.
+# Copyright (C) 2019 Super Tux Party Contributors
+# This file is distributed under the same license as the Super Tux Party project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.7\n"
+"PO-Revision-Date: 2024-07-13 14:09+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
+"Language-Team: Irish <https://hosted.weblate.org/projects/super-tux-party/"
+"minigamesbowling/ga/>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :("
+"n>6 && n<11) ? 3 : 4;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+msgid "MINIGAME_NAME"
+msgstr "Babhláil"
+
+msgid "MINIGAME_DESCRIPTION"
+msgstr ""
+"Caithfidh an t-imreoir aonair gach imreoir eile a shoot as an ardán chun an "
+"bua a fháil.\n"
+"Má ritheann an t-am amach, bíonn an bua ag an ngrúpa.\n"
+"Coinnigh súil amach do bhoscaí ag titim. Siad stiúdú má fhaigheann tú "
+"buailte, ach freisin urchair bloc."
+
+msgid "MINIGAME_ACTION_JUMP"
+msgstr "Léim"
+
+msgid "MINIGAME_ACTION_THROW"
+msgstr "Caith liathróid"
+
+msgid "BOWLING_FINISH_MSG"
+msgstr "Críochnaigh!"
+
+msgid "MINIGAME_ACTION_UP"
+msgstr "Éirí suas"
+
+msgid "MINIGAME_ACTION_LEFT"
+msgstr "Bog ar chlé"
+
+msgid "MINIGAME_ACTION_MOVE"
+msgstr "Bog"
+
+msgid "MINIGAME_ACTION_DOWN"
+msgstr "Bog Síos"
+
+msgid "MINIGAME_ACTION_RIGHT"
+msgstr "Bog ar dheis"

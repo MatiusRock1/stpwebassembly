@@ -1,0 +1,29 @@
+# Translations template for Super Tux Party.
+# Copyright (C) 2019 Super Tux Party Contributors
+# This file is distributed under the same license as the Super Tux Party project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.7\n"
+"PO-Revision-Date: 2025-01-08 14:01+0000\n"
+"Last-Translator: reimu105 <peter112548@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/super-tux-party/minigameshurdle/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.10-dev\n"
+
+msgid "HURDLE_PLAYER_WINS_MSG"
+msgstr "{player}獲勝！"
+
+msgid "MINIGAME_NAME"
+msgstr "跨欄"
+
+msgid "MINIGAME_DESCRIPTION"
+msgstr ""
+"玩家站在一個移動的平台上。\n"
+"\n"
+"不要從平台上掉下來！最後站立的玩家獲勝。"

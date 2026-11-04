@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-08 08:02+0000\n"
+"Last-Translator: CloneWith <clonewith@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"super-tux-party/minigameskernel_compiling/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+msgid "MINIGAME_ACTION_PRESS_BUTTON"
+msgstr "按下按钮"
+
+msgid "MINIGAME_NAME"
+msgstr "内核编译"
+
+msgid "MINIGAME_DESCRIPTION"
+msgstr ""
+"玩家生成编译 Linux 内核的能量。屏幕上会显示要按下的键。\n"
+"按键最快的玩家获胜！"

@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-24 10:01+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/super-tux-party/"
+"minigamesdungeon_parkour/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
+
+msgid "MINIGAME_NAME"
+msgstr "Dungonin kurssi"
+
+msgid "MINIGAME_DESCRIPTION"
+msgstr "Hyppää ja juokse tiesi maaliin"
+
+msgid "MINIGAME_ACTION_UP"
+msgstr "Liiku ylös"
+
+msgid "MINIGAME_ACTION_JUMP"
+msgstr "Hyppää"
+
+msgid "MINIGAME_ACTION_DOWN"
+msgstr "Liiku alas"
+
+msgid "MINIGAME_ACTION_LEFT"
+msgstr "Liiku vasemmalle"
+
+msgid "MINIGAME_ACTION_RIGHT"
+msgstr "Liiku oikealle"

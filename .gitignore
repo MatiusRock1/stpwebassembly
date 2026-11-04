@@ -1,0 +1,21 @@
+.python-version
+*~
+*.kra
+.import/
+.directory
+.godot/
+
+# Browser port: outputs stay out of the repository
+/smoke-evidence/
+__pycache__/
+
+# Exported builds and local secrets
+/exports/
+/build/
+*.pck
+*.wasm
+/token.md
+.env
+.env.*
+!.env.example
+.venv/

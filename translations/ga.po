@@ -1,0 +1,643 @@
+# Translations template for Super Tux Party.
+# Copyright (C) 2019 Super Tux Party Contributors
+# This file is distributed under the same license as the Super Tux Party project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.7\n"
+"PO-Revision-Date: 2024-11-03 11:00+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
+"Language-Team: Irish <https://hosted.weblate.org/projects/super-tux-party/"
+"super-tux-party/ga/>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :("
+"n>6 && n<11) ? 3 : 4;\n"
+"X-Generator: Weblate 5.8.2\n"
+
+msgid "CONTEXT_LABEL_BUY_CAKE"
+msgstr "Ceannaigh císte le haghaidh fianáin {amount}"
+
+msgid "CONTEXT_LABEL_DUEL_REWARD"
+msgstr "Luaíocht Duel:"
+
+msgid "CONTEXT_LABEL_DUEL_SELECT"
+msgstr "Roghnaigh Comhraiceoir:"
+
+msgid "CONTEXT_LABEL_FINISH"
+msgstr "Críochnaigh!"
+
+msgid "CONTEXT_LABEL_GO"
+msgstr "Téigh!"
+
+msgid "CONTEXT_LABEL_PLAYER_ROLLED"
+msgstr "{name} rollta {value}:"
+
+msgid "CONTEXT_LABEL_READY_QUESTION"
+msgstr "Réidh?"
+
+msgid "CONTEXT_LABEL_ROLL"
+msgstr "Rollaigh!"
+
+msgid "CONTEXT_LABEL_ROLL_PLAYER"
+msgstr "Rollaigh {name}!"
+
+msgid "CONTEXT_LABEL_STEAL_ONE_CAKE"
+msgstr "Goideann an buaiteoir 1 císte"
+
+msgid "CONTEXT_LABEL_STEAL_TEN_COOKIES"
+msgstr "Goideann an buaiteoir 10 bhfianán"
+
+msgid "CONTEXT_LABEL_TURN_NUM"
+msgstr "Cas {turn}/{total}"
+
+msgid "CONTEXT_LABEL_VS"
+msgstr "VS."
+
+msgid "CONTEXT_LABEL_YOUR_TURN"
+msgstr "Sin é do sheal!"
+
+msgid "CONTEXT_NOTIFICATION_NOT_ENOUGH_COOKIES"
+msgstr "Níl go leor fianáin agat chun é sin a cheannach"
+
+msgid "CONTEXT_NOTIFICATION_NOT_ENOUGH_SPACE"
+msgstr "Níl aon spás fágtha i d'fhardal"
+
+msgid "MENU_CONTROLS_ACTION_1"
+msgstr "Gníomh 1"
+
+msgid "MENU_CONTROLS_ACTION_2"
+msgstr "Gníomh 2"
+
+msgid "MENU_CONTROLS_ACTION_3"
+msgstr "Gníomh 3"
+
+msgid "MENU_CONTROLS_ACTION_4"
+msgstr "Gníomh 4"
+
+msgid "MENU_CONTROLS_UNKNOWN_GAMEPAD_AXIS"
+msgstr "Ais {axis} anaithnid"
+
+msgid "MENU_CONTROLS_GENERIC_GAMEPAD_BUTTON"
+msgstr "Cnaipe {button} gamepad"
+
+msgid "MENU_CONTROLS_MOUSE"
+msgstr "Luch"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON"
+msgstr "Cnaipe luiche"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_LEFT"
+msgstr "Cnaipe luiche ar chlé"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_MIDDLE"
+msgstr "Cnaipe lár luiche"
+
+msgid "MENU_CONTROLS_MOUSE_BUTTON_RIGHT"
+msgstr "Cnaipe luiche ar dheis"
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_DOWN"
+msgstr "Roth cnaipe síos"
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_LEFT"
+msgstr "Roth cnaipe ar chlé"
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_RIGHT"
+msgstr "Roth cnaipe ar dheis"
+
+msgid "MENU_CONTROLS_MOUSE_WHEEL_UP"
+msgstr "Roth cnaipe suas"
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT"
+msgstr "Truicear Clé"
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT_2"
+msgstr "Truicear Clé 2"
+
+msgid "MENU_CONTROLS_TRIGGER_LEFT_3"
+msgstr "Truicear Clé 3"
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT"
+msgstr "Truicear ar dheis"
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT_2"
+msgstr "Truicear ar dheis 2"
+
+msgid "MENU_CONTROLS_TRIGGER_RIGHT_3"
+msgstr "Truicear ar dheis 3"
+
+msgid "MENU_CONTROLS_DIR_DOWN"
+msgstr "Síos"
+
+msgid "MENU_CONTROLS_DIR_LEFT"
+msgstr "Ar chlé"
+
+msgid "MENU_CONTROLS_DIR_RIGHT"
+msgstr "Ar dheis"
+
+msgid "MENU_CONTROLS_DIR_UP"
+msgstr "Suas"
+
+msgid "MENU_CONTROLS_SCREENSHOT"
+msgstr "Tóg screenshot"
+
+msgid "MENU_CONTROLS_DEV_MENU"
+msgstr "Oscail roghchlár forbróra"
+
+msgid "MENU_IO_ENTER_SAVEGAME_NAME"
+msgstr "Iontráil ainm an chluiche shábháil:"
+
+msgid "MENU_IO_LOAD_GAME"
+msgstr "Cluiche Luchtaigh"
+
+msgid "MENU_IO_SAVE"
+msgstr "Sábháil"
+
+msgid "MENU_IO_SAVE_GAME"
+msgstr "Cluiche a shábháil"
+
+msgid "MENU_LABEL_BACK"
+msgstr "Ar ais"
+
+msgid "MENU_LABEL_CANCEL"
+msgstr "Cealaigh"
+
+msgid "MENU_LABEL_CONTINUE"
+msgstr "Lean ort"
+
+msgid "MENU_LABEL_DESKTOP"
+msgstr "Scoir go Deasc"
+
+msgid "MENU_SETTINGS_AWARD_LINEAR"
+msgstr "Líneach"
+
+msgid "MENU_LABEL_NEW_GAME"
+msgstr "Cluiche Nua"
+
+msgid "MENU_LABEL_START"
+msgstr "Tosaigh"
+
+msgid "MENU_LABEL_PAUSE"
+msgstr "Sos"
+
+msgid "MENU_LABEL_PAUSED"
+msgstr "Ar shos"
+
+msgid "MENU_LABEL_PAUSE_ON_WINDOW_UNFOCUS"
+msgstr "Cuir ar sos nuair a chailltear fócas na fuinneoige"
+
+msgid "MENU_LABEL_PLAY"
+msgstr "Imirt"
+
+msgid "MENU_LABEL_ONLINE"
+msgstr "Seinn ar líne"
+
+msgid "MENU_LABEL_PLAYER1"
+msgstr "Imreoir 1"
+
+msgid "MENU_LABEL_PLAYER2"
+msgstr "Imreoir 2"
+
+msgid "MENU_LABEL_PLAYER3"
+msgstr "Imreoir 3"
+
+msgid "MENU_LABEL_PLAYER4"
+msgstr "Imreoir 4"
+
+msgid "MENU_LABEL_PRESS_ANY_KEY"
+msgstr "Brúigh eochair ar bith"
+
+msgid "MENU_LABEL_QUIT"
+msgstr "Scoir"
+
+msgid "MENU_LABEL_READY"
+msgstr "Réidh!"
+
+msgid "MENU_LABEL_RESUME"
+msgstr "Atosaigh"
+
+msgid "MENU_LABEL_RETURN_MENU"
+msgstr "Fill ar an bPríomh-Roghchlár"
+
+msgid "MENU_LABEL_SELECT_BOARD"
+msgstr "Roghchlár:"
+
+msgid "MENU_LABEL_SELECT_CHARACTER"
+msgstr "Roghnaigh do Charachtar"
+
+msgid "MENU_LABEL_TRY"
+msgstr "Bain triail as"
+
+msgid "MENU_SETTINGS_AWARD_WINNER_TAKES_ALL"
+msgstr "Tógann an buaiteoir go léir"
+
+msgid "MENU_SETTINGS_AWARD_TYPE"
+msgstr "Cineál Dámhachtana"
+
+msgid "MENU_LABEL_CREDITS"
+msgstr "Creidmheasanna"
+
+msgid "MENU_LABEL_SCREENSHOTS"
+msgstr "Seatanna scáileáin"
+
+msgid "MENU_OPTIONS"
+msgstr "Roghanna"
+
+msgid "MENU_OPTIONS_AUDIO"
+msgstr "Fuaime"
+
+msgid "MENU_OPTIONS_CONTROLS"
+msgstr "Rialuithe"
+
+msgid "MENU_OPTIONS_EFFECTS"
+msgstr "Éifeachtaí"
+
+msgid "MENU_OPTIONS_FRAME_CAP"
+msgstr "Caipín Fráma"
+
+msgid "MENU_OPTIONS_FULLSCREEN"
+msgstr "Lánscáileán"
+
+msgid "MENU_OPTIONS_MSAA"
+msgstr "Frithailiasú ilshampla (MSAA)"
+
+msgid "MENU_OPTIONS_LANGUAGE"
+msgstr "Teanga"
+
+msgid "MENU_OPTIONS_MASTER"
+msgstr "Máistir"
+
+msgid "MENU_OPTIONS_MISC"
+msgstr "Ilghné."
+
+msgid "MENU_OPTIONS_MUSIC"
+msgstr "Ceol"
+
+msgid "MENU_OPTIONS_MUTE_ON_WINDOW_UNFOCUS"
+msgstr "Balbhaigh nuair a chailltear fócas na fuinneoige"
+
+msgid "MENU_OPTIONS_SYSTEM_DEFAULT"
+msgstr "Réamhshocrú Córais"
+
+msgid "MENU_OPTIONS_VISUAL"
+msgstr "Amharc"
+
+msgid "MENU_OPTIONS_VSYNC"
+msgstr "VSync"
+
+msgid "DIALOG_YES"
+msgstr "Tá"
+
+msgid "DIALOG_NO"
+msgstr "Níl"
+
+msgid "MENU_LABEL_CONNECTION_ERROR_TITLE"
+msgstr "Earráid Ceangail"
+
+msgid "MENU_LABEL_CONNECTION_TIMEOUT"
+msgstr ""
+"Ní féidir an freastalaí a bhaint amach.\n"
+"\n"
+"Déan teagmháil le riarthóir do fhreastalaí."
+
+msgid "MENU_LABEL_NO_SERVER_VERSION"
+msgstr ""
+"Níorbh fhéidir leagan an fhreastalaí a chinneadh.\n"
+"\n"
+"Déan teagmháil le riarthóir do fhreastalaí."
+
+msgid "MENU_LABEL_VERSION_MISMATCH_TITLE"
+msgstr "Neamhréir leagan"
+
+msgid "MENU_LABEL_VERSION_MISMATCH"
+msgstr ""
+"Tá leagan neamh-chomhoiriúnach de SuperTuxParty á rith agat don fhreastalaí "
+"seo.\n"
+"Do leagan: {áitiúil}\n"
+"Leagan an fhreastalaí: {iargúlta}\n"
+"\n"
+"Íoslódáil leagan comhoiriúnach le himirt ar an bhfreastalaí seo."
+
+msgid "MENU_LABEL_CHOOSE_SERVER"
+msgstr "Roghnaigh Freastalaí:"
+
+msgid "MENU_LABEL_COPY"
+msgstr "Cóipeáil chuig an nGearrthaisce"
+
+msgid "MENU_LABEL_LOBBY_CREATE"
+msgstr "Cruthaigh Stocaireacht"
+
+msgid "MENU_LABEL_LOBBY_JOIN"
+msgstr "Bí ar an stocaireacht"
+
+msgid "MENU_LOBBY_SETTINGS"
+msgstr "Roghanna Cluiche"
+
+msgid "MENU_SETTINGS_PUBLIC"
+msgstr "Stocaireacht Phoiblí"
+
+msgid "MENU_SETTINGS_CAKE_COST"
+msgstr "Costas císte"
+
+msgid "MENU_SETTINGS_TURNS"
+msgstr "Casann"
+
+msgid "MENU_SETTINGS_ENABLE_TIMEOUT"
+msgstr "Ciceáil imreoirí le haghaidh Neamhghníomhaíochta"
+
+msgid "MENU_SETTINGS_TIMEOUT"
+msgstr "Teorainn Ama"
+
+msgid "AI_DIFFICULTY"
+msgstr "Deacracht AI:"
+
+msgid "DIFFICULTY_EASY"
+msgstr "Éasca"
+
+msgid "DIFFICULTY_NORMAL"
+msgstr "Gnáth"
+
+msgid "DIFFICULTY_HARD"
+msgstr "Deacair"
+
+msgid "CONTEXT_GNU_ACTION_TYPE"
+msgstr "Gníomh GNU"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY"
+msgstr "Cáilíocht Grafach"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_HIGH"
+msgstr "Ard"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_MEDIUM"
+msgstr "Meánach"
+
+msgid "MENU_OPTIONS_GRAPHIC_QUALITY_LOW"
+msgstr "Íseal"
+
+msgid "MENU_OPTIONS_FXAA"
+msgstr "FXAA"
+
+msgid "MENU_GRAPHIC_QUALITY_REBOOT_NOTICE"
+msgstr ""
+"Ní thiocfaidh athrú ar cháilíocht na grafach i bhfeidhm ach amháin tar éis "
+"atosú"
+
+msgid "MENU_LOBBY_ADD_PLAYER"
+msgstr "Brúigh chun páirt a ghlacadh"
+
+msgid "CONTEXT_SPEAKER_SARA"
+msgstr "Sara"
+
+msgid "CONTEXT_WINNER_ANNOUNCEMENT"
+msgstr ""
+"Tá a fhios agam go raibh sibh go léir ag troid go dian le buachan, ach anois "
+"tá an cluiche thart agus tá buaiteoir ag teastáil uainn. Agus is é an "
+"buaiteoir seo…"
+
+msgid "CONTEXT_WINNER_REVEAL_ONE_PLAYER"
+msgstr "[color=#ff3300]{0}[/color]!"
+
+msgid "CONTEXT_WINNER_REVEAL_TWO_PLAYER"
+msgstr "[color=#ff3300]{0}[/color] agus [color=#33ff00]{1}[/color]!"
+
+msgid "CONTEXT_WINNER_REVEAL_THREE_PLAYER"
+msgstr ""
+"[color=#ff3300]{0}[/color], [color=#33ff00]{1}[/color] agus "
+"[color=#00ff88]{2}[/color]!"
+
+msgid "CONTEXT_WINNER_REVEAL_FOUR_PLAYER"
+msgstr ""
+"[color=#ff3300]{0}[/color], [color=#33ff00]{1}[/color], "
+"[color=#00ff88]{2}[/color] agus [color=#ffff33]{3}[/color]!"
+
+msgid "CONTEXT_LABEL_CAKES"
+msgstr "Cácaí"
+
+msgid "CONTEXT_LABEL_COOKIES"
+msgstr "Fianáin"
+
+msgid "CONTEXT_GNU_NAME"
+msgstr "GNU"
+
+msgid "CONTEXT_GNU_EVENT_START"
+msgstr ""
+"Hey ann, is gá roinnt cabhrach? Lig dom a fheiceáil, cad is féidir liom a "
+"dhéanamh duit inniu…"
+
+msgid "CONTEXT_GNU_MINIGAME_SOLO_MODERATION"
+msgstr ""
+"Is mionchluiche aonair é! Taispeáin dom do chuid scileanna agus tabharfaidh "
+"mé [color=#dd44ff]{duais[/color] duit"
+
+msgid "CONTEXT_GNU_MINIGAME_SOLO"
+msgstr "Mini cluiche aonair"
+
+msgid "CONTEXT_GNU_MINIGAME_COOP_MODERATION"
+msgstr "A ligean ar imirt le chéile! Tá mé cinnte go mbeidh sé seo spraoi"
+
+msgid "CONTEXT_GNU_MINIGAME_COOP"
+msgstr "Cluiche mion coop"
+
+msgid "CONTEXT_GNU_SOLO_VICTORY"
+msgstr "Maith thú. Seo é do luach saothair!"
+
+msgid "CONTEXT_GNU_SOLO_LOSS"
+msgstr "Níor oibrigh sin amach. B’fhéidir an chéad uair eile."
+
+msgid "CONTEXT_GNU_COOP_VICTORY"
+msgstr "Rinne tú é. Beidh mé ag tnúth leis an chéad uair eile."
+
+msgid "CONTEXT_GNU_COOP_LOSS"
+msgstr ""
+"Cé nach ndearna tú é, chleacht tú d'obair foirne. Tá mé cinnte go n-"
+"oibreoidh an chéad uair eile amach duit!"
+
+msgid "CONTEXT_NOLOK_NAME"
+msgstr "Nolok"
+
+msgid "CONTEXT_NOLOK_ACTION_TYPE"
+msgstr "Gníomh Nolok"
+
+msgid "CONTEXT_NOLOK_EVENT_START"
+msgstr "Is é mo sheal é! Tá a fhios agam go díreach, cad atá le déanamh…"
+
+msgid "CONTEXT_NOLOK_MINIGAME_SOLO_MODERATION"
+msgstr ""
+"Dúshlán mé tú chuig mionchluiche! Más féidir leat a defeat dom, is féidir "
+"leat a choinneáil do rudaí. Mura bhfuil, tógfaidh mé ceann de do chuid cácaí…"
+
+msgid "CONTEXT_NOLOK_MINIGAME_SOLO"
+msgstr "Mini cluiche aonair"
+
+msgid "CONTEXT_NOLOK_MINIGAME_COOP_MODERATION"
+msgstr ""
+"Mise vs tú go léir? An gceapann tú fiú go seasann tú seans i mo choinne?"
+
+msgid "CONTEXT_NOLOK_MINIGAME_COOP"
+msgstr "Cluiche mion coop"
+
+msgid "CONTEXT_NOLOK_SOLO_VICTORY"
+msgstr "Bí buíoch gur chosain mé thú!"
+
+msgid "CONTEXT_NOLOK_SOLO_LOSS"
+msgstr "Ag tnúth le tú a bhualadh arís!"
+
+msgid "CONTEXT_NOLOK_COOP_VICTORY"
+msgstr "An chéad uair eile ní bheidh an bua agat."
+
+msgid "CONTEXT_NOLOK_COOP_LOSS"
+msgstr "Haha, cén bua éasca."
+
+msgid "CONTEXT_NOLOK_LOSE_COOKIES_MODERATION"
+msgstr ""
+"Haha, téigh [color=#00aaff]{mhéid}[/color] de do fhianáin. Tá mé cinnte go "
+"bhfuil úsáid ag [color=#dd44ff][player}[/color] dóibh"
+
+msgid "CONTEXT_NOLOK_LOSE_COOKIES"
+msgstr "Caill do fianáin"
+
+msgid "CONTEXT_NOLOK_ROLL_MODIFIER_MODERATION"
+msgstr ""
+"B'fhéidir gur chóir duit moilliú beagán. Feicfimid conas a dhéanann tú le "
+"[color=#00aaff]{amount}[/color] níos lú gluaiseachta don chéad "
+"[color=#dd44ff]{fad}[/color] caith"
+
+msgid "CONTEXT_NOLOK_ROLL_MODIFIER"
+msgstr "Cursed bás"
+
+msgid "CONTEXT_SHOW_TUTORIAL"
+msgstr ""
+"Is cosúil gurb é seo do chéad uair ag imirt. Ar mhaith leat dom na rialacha "
+"a mhíniú?"
+
+msgid "CONTEXT_TUTORIAL_DICE"
+msgstr ""
+"Imrítear an cluiche ar a seal. Le linn do sheal, rollaíonn tú dísle agus "
+"bogann tú an uimhir a thaispeánann sé ar aghaidh."
+
+msgid "CONTEXT_TUTORIAL_COOKIES"
+msgstr ""
+"Is fianáin é an t-airgeadra. Tuilleann tú fianáin trí mionchluichí a "
+"bhuachan. Le fianáin is féidir leat earraí a cheannach agus tú ag dul thar "
+"na spásanna siopa."
+
+msgid "CONTEXT_TUTORIAL_CAKES"
+msgstr ""
+"A bhuachan, is gá duit a bhailiú ar an cácaí is mó. Bainfear úsáid as "
+"fianáin mar bhriseadh ceangail. Is féidir leat cácaí a cheannach in áiteanna "
+"speisialta ar an mbord. Má cheannaíonn tú ceann, bogfaidh an císte go dtí "
+"suíomh eile."
+
+msgid "CONTEXT_TUTORIAL_SPACES_NORMAL"
+msgstr ""
+"Tá cineálacha éagsúla spásanna ar féidir leat teacht i dtír orthu: Tugann "
+"spásanna gorma fianáin duit, agus glacann spásanna dearga d’fhianáin."
+
+msgid "CONTEXT_TUTORIAL_SPACES_SPECIAL"
+msgstr ""
+"Cuireann spásanna glasa tús le himeachtaí cláir ar leith. Ligeann spásanna "
+"cath duit imreoir eile a dhúshlánú chuig mionchluiche duel."
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES"
+msgstr ""
+"Tar éis do gach imreoir a sheal a fháil, imreofar mionchluiche. Tá trí "
+"blasanna éagsúla de minigames:"
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_FFA"
+msgstr ""
+"Saor in aisce do chách, áit a mbíonn gach duine in iomaíocht le gach duine "
+"le buachan."
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_2V2"
+msgstr "Beirt vs dhá, áit a imríonn tú i bhfoirne de bheirt."
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_1V3"
+msgstr ""
+"Agus duine amháin vs trí, áit a bhfuil duine in iomaíocht leis an gcuid "
+"eile. Faigheann an t-imreoir aonair bónas chun rudaí a chur suas fiú."
+
+msgid "CONTEXT_TUTORIAL_MINIGAMES_SPECIAL"
+msgstr ""
+"Imreofar mionchluichí speisialta nuair a thuirlingíonn imreoir ar spás GNU "
+"nó NOLOK. Tá mionchluichí GNU go maith, cé go bhfuil mionchluichí NOLOK dona "
+"duit. Mar sin is fearr fanacht amach ón dara ceann!"
+
+msgid "CONTEXT_TUTORIAL_END"
+msgstr "Sin é, anois tá tú réidh le dul! Bíodh spraoi agat!"
+
+msgid "CONTEXT_CAKE_PLACED"
+msgstr "Seo é an cáca, tar agus faigh é!"
+
+msgid "CONTEXT_CAKE_WANT_BUY"
+msgstr "Ar mhaith leat cáca a cheannach?"
+
+msgid "CONTEXT_CAKE_BUY_AMOUNT"
+msgstr "Cé mhéad cáca ba mhaith leat a cheannach?"
+
+msgid "CONTEXT_CAKE_COLLECTED"
+msgstr ""
+"Maith thú, [color=#00aaff][player}[/color]. Sin [color=#dd44ff][méid}[/dath] "
+"cáca(í) duit."
+
+msgid "CONTEXT_CAKE_CANT_AFFORD"
+msgstr "Tá brón orm ach níl go leor fianáin agat chun cáca a cheannach."
+
+msgid "SHOP_LABEL_TITLE"
+msgstr "Siopa Mír"
+
+msgid "SHOP_LABEL_DESCRIPTION"
+msgstr "Cur síos ar an mír"
+
+msgid "SHOP_ITEM_NO_DESCRIPTION"
+msgstr "Gan tuairisc"
+
+msgid "REWARDSCREEN_MINIGAME_RESULTS"
+msgstr "Torthaí Mionchluiche"
+
+msgid "REWARDSCREEN_MINIGAME_WINNER"
+msgstr "Buaiteoir!"
+
+msgid "REWARDSCREEN_MINIGAME_REWARD"
+msgstr "Luaíocht:"
+
+msgid "REWARDSCREEN_PRESS_BUTTON"
+msgstr "Brúigh"
+
+msgid "MINIGAME_ACTION_MOVEMENT"
+msgstr "Bog"
+
+msgid "MINIGAME_TYPE_FFA"
+msgstr "Mini cluiche saor in aisce do gach duine"
+
+msgid "MINIGAME_TYPE_2v2"
+msgstr "Minigame dhá-ar-dó"
+
+msgid "MINIGAME_TYPE_1v3"
+msgstr "Cluiche mion aon-ar-trí"
+
+msgid "MINIGAME_TYPE_DUEL"
+msgstr "Cluiche mion duel"
+
+msgid "MINIGAME_TYPE_GNU_COOP"
+msgstr "Cluiche mion GNU Coop"
+
+msgid "MINIGAME_TYPE_GNU_SOLO"
+msgstr "Cluiche mion GNU Solo"
+
+msgid "MINIGAME_TYPE_NOLOK_COOP"
+msgstr "Cluiche Nolok Coop"
+
+msgid "MINIGAME_TYPE_NOLOK_SOLO"
+msgstr "Cluiche Nolok Solo"
+
+msgid "ERROR"
+msgstr "Earráid"
+
+msgid "SAVE_GAME_CANNOT_SAVE"
+msgstr "Ní féidir an cluiche a shábháil ag an am seo"
+
+msgid "SAVE_GAME_DISABLED"
+msgstr "Tá sábháil cluichí díchumasaithe ar an bhfreastalaí seo"

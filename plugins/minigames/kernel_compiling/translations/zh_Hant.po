@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-08 14:01+0000\n"
+"Last-Translator: reimu105 <peter112548@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/super-tux-party/minigameskernel_compiling/zh_Hant/>\n"
+"Language: zh_Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.10-dev\n"
+
+msgid "MINIGAME_ACTION_PRESS_BUTTON"
+msgstr "按下按鈕"
+
+msgid "MINIGAME_DESCRIPTION"
+msgstr ""
+"玩家們產生能量來編譯Linux核心。要按的鍵顯示在螢幕上。\n"
+"最快的玩家獲勝！"
+
+msgid "MINIGAME_NAME"
+msgstr "核心編譯"
