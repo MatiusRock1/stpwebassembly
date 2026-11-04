@@ -113,8 +113,7 @@ func _ready():
 		[["player1_action1", "player1_ok"], _key_name("player1_action1"), "OK", Vector2(1, 2)],
 	], true)
 	var pause := _add_button(["player1_pause"], "II", "", Vector2(BUTTON_SIZE, BUTTON_SIZE) * 0.6)
-	pause.set_anchors_preset(Control.PRESET_CENTER_TOP)
-	pause.position = Vector2(-pause.size.x / 2, MARGIN / 2)
+	_place(pause, Vector2(0.5, 0), Vector2(-pause.size.x / 2, MARGIN / 2))
 
 	get_tree().node_added.connect(func(_node): _update_visibility())
 	get_tree().node_removed.connect(func(_node): _update_visibility.call_deferred())
@@ -147,11 +146,21 @@ func _add_group(layout: Array, on_right: bool):
 		var place: Vector2 = entry[3] * cell
 		var y := -MARGIN - cell * 3 + place.y
 		if on_right:
-			button.set_anchors_preset(Control.PRESET_BOTTOM_RIGHT)
-			button.position = Vector2(-MARGIN - cell * 3 + place.x, y)
+			_place(button, Vector2(1, 1), Vector2(-MARGIN - cell * 3 + place.x, y))
 		else:
-			button.set_anchors_preset(Control.PRESET_BOTTOM_LEFT)
-			button.position = Vector2(MARGIN + place.x, y)
+			_place(button, Vector2(0, 1), Vector2(MARGIN + place.x, y))
+
+## Pins a button to a corner of the screen, so it stays there on any screen shape.
+func _place(button: Control, anchor: Vector2, offset: Vector2):
+	var button_size := button.size
+	button.anchor_left = anchor.x
+	button.anchor_right = anchor.x
+	button.anchor_top = anchor.y
+	button.anchor_bottom = anchor.y
+	button.offset_left = offset.x
+	button.offset_top = offset.y
+	button.offset_right = offset.x + button_size.x
+	button.offset_bottom = offset.y + button_size.y
 
 func _add_button(actions: Array, text: String, subtext: String, button_size: Vector2) -> PadButton:
 	var button := PadButton.new(actions, text, subtext)
@@ -172,9 +181,8 @@ func _input(event: InputEvent):
 		_release(event.index)
 		_press_at(event.index, event.position)
 
-func _press_at(index: int, screen_position: Vector2):
-	# Touches come in window pixels, while the controls live in the stretched canvas
-	var canvas_position: Vector2 = _root.get_viewport().get_screen_transform().affine_inverse() * screen_position
+func _press_at(index: int, canvas_position: Vector2):
+	# The viewport has already converted the touch to canvas units
 	for button in _buttons:
 		if button.get_global_rect().has_point(canvas_position):
 			button.set_touch(index, true)

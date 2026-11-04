@@ -133,20 +133,16 @@ The same screens place a column of texts under each character: reward, total and
 
 ## What has been tested
 
-On 2026-11-04, Chrome on Windows with an AMD integrated GPU, 60 FPS throughout.
+On 2026-11-04, Chrome on Windows with an AMD integrated GPU, about 60 FPS.
 
-- Menu, lobby, a full round with bots, reward screen, in English and Spanish. Results of the rest of the minigames: see the end of this section.
-- Online between two Chrome instances through nginx: version check, public lobby and join code, both reaching the board in sync. A full online match has not been played.
-- Cache Storage: the second visit starts in about 3 s.
-- Packages hold only their texture formats: counted in the files.
+- Menu, lobby, board with bots, reward screens and the end of a match, in English and Spanish.
+- All 12 minigames, in automated matches with a debug build (`--stp-minigames`) pressing keys, run from start to end without script errors after the fixes above. That shows they load and finish, not that each one is fun or fair to play.
+- Reward screen at 1920x1080: four characters and the prompt to continue, by screenshot.
+- A build from an empty Docker volume: it starts at 60 FPS without script errors.
+- The real site image with `CSP_ENFORCE=1`: pages in Spanish, the game loading its package from `STP_DATA_URL`, no policy violations.
+- Online between two Chrome instances through nginx: version check, public lobby and join code, both reaching the board in sync. A full online match has not been played, and no server is deployed.
+- On-screen gamepad in Chrome's phone emulation: it appears in place, and OK advances the dialog and the turn. A real phone has not been tried.
 
-Automated match through the minigames with a debug build (`--stp-minigames`), pressing keys at random:
+Godot logs "Node not found" and "Invalid packet received" a few times when a client sends an RPC for a scene the server has just left. It is harmless, and a race in upstream's protocol.
 
-| Minigame | Result |
-| --- | --- |
-| `kernel_compiling` | Played by hand as well |
-| `hurdle`, `harvest_food` | Ran to the reward screen, no script errors |
-
-Godot logs "Node not found" and "Invalid packet received" a few times when a client sends an RPC for a scene the server has just left. Upstream's protocol has this race and it is harmless.
-
-Not tested: audio by ear, gamepads, saved games beyond the code fix, phones (see [toolchain.md](toolchain.md)).
+Not tested: audio by ear, gamepads, saved games beyond the code fix, the victory screen after its import fix, real phones (see [toolchain.md](toolchain.md)).
