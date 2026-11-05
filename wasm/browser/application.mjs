@@ -49,9 +49,14 @@ function record(line, level = 'debug') {
 // page there is no dictionary and they stay in English.
 const t = text => window.DemosI18n?.t(text) || text;
 
+// The engine reports progress from animation frames, so its last report can arrive
+// after the game has started. It must not bring the loading screen back over the game.
+let engineSettled = false;
+
 function showLoading(message) { loading.hidden = false; loadingText.textContent = message; }
 
 function fail(message) {
+  engineSettled = true;
   loading.hidden = true;
   status.textContent = `${t('Game error')}: ${message}. ${t('Reload the page to try again.')}`;
   window.applicationResult = { error: message };
@@ -162,6 +167,7 @@ startButton.addEventListener('click', async () => {
       // ?args= appends engine options, e.g. ?args=--verbose
       args: (devParam('args') || '').split(' ').filter(Boolean),
       onProgress: (current, total) => {
+        if (engineSettled) return;
         if (total > 0) showLoading(`${t('Downloading the game')}: ${MiB(current)} / ${MiB(total)} MiB. ${t('Only the first start downloads it.')}`);
         else showLoading(t('Starting SuperTux Party…'));
       },
@@ -171,6 +177,7 @@ startButton.addEventListener('click', async () => {
       onExit: () => location.reload(),
     });
     await engine.startGame();
+    engineSettled = true;
     loading.hidden = true;
     status.textContent = t('SuperTux Party running.');
     fullscreenButton.disabled = false;

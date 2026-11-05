@@ -22,7 +22,24 @@ func _ready():
 		var boards := $MarginContainer/VBoxContainer/Content/VBoxContainer/Board
 		boards.add_item(board)
 		boards.set_item_metadata(boards.get_item_count() - 1, board)
+	if WebPlatform.is_touch_device():
+		_fit_footer_for_touch()
 	$MarginContainer/VBoxContainer/Footer/Start.grab_focus()
+
+## On a phone these buttons are small targets at the very edge, where a curved screen hides them.
+func _fit_footer_for_touch():
+	var footer := $MarginContainer/VBoxContainer/Footer
+	var start: Button = footer.get_node("Start")
+	start.custom_minimum_size = Vector2(260, 90)
+	start.add_theme_font_size_override("font_size", 36)
+	var back: Button = footer.get_node("Leave")
+	back.custom_minimum_size = Vector2(180, 90)
+	back.add_theme_font_size_override("font_size", 36)
+	for index in [0, -1]:
+		var edge_gap := Control.new()
+		edge_gap.custom_minimum_size.x = 110
+		footer.add_child(edge_gap)
+		footer.move_child(edge_gap, index)
 
 func _on_settings_changed(settings: Array):
 	var root := $MarginContainer/VBoxContainer/Content/ScrollContainer/Sidebar
