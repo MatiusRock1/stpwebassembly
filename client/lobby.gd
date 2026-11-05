@@ -121,6 +121,8 @@ func server_set_player_name(_idx: int, _name: String): pass
 func server_refresh(): pass
 @rpc
 func client_ready(): pass
+@rpc("any_peer")
+func scene_presented(): pass
 @rpc
 func _goto_minigame(_try: bool): pass
 
@@ -366,6 +368,38 @@ func _interactive_load_scene(path: String, callable: Callable, wait := true):
 	else:
 		# Server is misbehaving
 		leave()
+
+# Online: put the scene in place, frozen and behind the loading screen, and report
+# once it has been drawn. The first draw is what blocks a browser that has never
+# shown this scene. The server starts the game when everybody has reported.
+var _present_screen: CanvasLayer
+
+@rpc func present_scene():
+	if _objects_to_load != 0:
+		# Server is misbehaving
+		leave()
+		return
+	_present_screen = CanvasLayer.new()
+	_present_screen.layer = 128
+	var background := ColorRect.new()
+	background.color = Color.BLACK
+	background.set_anchors_preset(Control.PRESET_FULL_RECT)
+	_present_screen.add_child(background)
+	_present_screen.add_child(LOADING_SCREEN.instantiate())
+	add_child(_present_screen)
+	_loaded_scene.process_mode = Node.PROCESS_MODE_DISABLED
+	_change_scene_to_file()
+	for _i in range(2):
+		await RenderingServer.frame_post_draw
+		await get_tree().process_frame
+	scene_presented.rpc_id(1)
+
+@rpc func scene_started():
+	if _present_screen:
+		_present_screen.queue_free()
+		_present_screen = null
+	if _current_scene:
+		_current_scene.process_mode = Node.PROCESS_MODE_INHERIT
 
 func _scene_loaded(s: PackedScene, callable: Callable):
 	_loaded_scene = s.instantiate()

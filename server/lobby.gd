@@ -22,6 +22,11 @@ var loaded_from_savegame := false
 var num_ai := 0
 
 var wait_before_scene_change := {}
+# Clients that have the scene in place but have not reported its first frame yet.
+var _waiting_presented := {}
+var _present_round := 0
+# A device that takes longer than this must not hold up everybody else's game.
+const PRESENT_TIMEOUT := 30.0
 
 var turn := 1
 var player_turn := 1
@@ -115,6 +120,10 @@ func playerstate_updated(_players: Array): pass
 func minigame_ended(_was_try: bool, _placement, _reward): pass
 @rpc
 func finish_loading(): pass
+@rpc
+func present_scene(): pass
+@rpc
+func scene_started(): pass
 @rpc
 func game_started(): pass
 @rpc
@@ -317,6 +326,12 @@ func leave(id: int):
 	update_playerlist()
 	if human_players == 0:
 		queue_free()
+		return
+	# Whoever left will never report in; the others must not wait for them
+	if wait_before_scene_change.erase(id) and wait_before_scene_change.is_empty():
+		_all_clients_loaded()
+	if _waiting_presented.erase(id) and _waiting_presented.is_empty():
+		_start_presented_scene()
 
 func kick(id: int, reason: String):
 	print("Kicking Player {0} ({1})".format([id, reason]))
@@ -684,8 +699,39 @@ func _interactive_load_scene(path: String, callable: Callable):
 	wait_before_scene_change.erase(id)
 	
 	if wait_before_scene_change.is_empty():
+		_all_clients_loaded()
+
+func _all_clients_loaded():
+	if Global.is_local_multiplayer():
 		broadcast(finish_loading)
 		_change_scene_to_file()
+		return
+	# Having the files is not enough online: a browser that has never shown this
+	# scene blocks while it compiles the shaders for the first draw. The simulation
+	# starts here, on the server, so hold it until every browser has drawn the scene.
+	_waiting_presented = {}
+	for player in player_info:
+		if not player.is_ai():
+			_waiting_presented[player.addr.peer_id] = true
+	if _waiting_presented.is_empty():
+		_start_presented_scene()
+		return
+	broadcast(present_scene)
+	_present_round += 1
+	var round_id := _present_round
+	get_tree().create_timer(PRESENT_TIMEOUT).timeout.connect(func():
+		if round_id == _present_round and not _waiting_presented.is_empty():
+			_waiting_presented = {}
+			_start_presented_scene())
+
+@rpc("any_peer") func scene_presented():
+	if _waiting_presented.erase(multiplayer.get_remote_sender_id()) and _waiting_presented.is_empty():
+		_start_presented_scene()
+
+func _start_presented_scene():
+	# First, so that the clients have resumed when messages from _ready reach them
+	broadcast(scene_started)
+	_change_scene_to_file()
 
 func _scene_loaded(s: PackedScene, callable: Callable):
 	_loaded_scene = s.instantiate()
